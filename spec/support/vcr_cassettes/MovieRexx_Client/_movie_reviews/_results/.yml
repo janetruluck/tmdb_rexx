@@ -1,0 +1,106 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/movie/fight-club/reviews?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '98'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"ed6d3600ec1cf6d4ab30c24f6f33625e"'
+      X-Apiary-Transaction-Id:
+      - 55d5023cd6581f0700f03024
+      Date:
+      - Wed, 19 Aug 2015 22:25:01 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICJpZCI6IDQ5MDI2LAogICJwYWdlIjogMSwKICAicmVzdWx0cyI6IFsK
+        ICAgIHsKICAgICAgImlkIjogIjUwMTA1NTM4MTljMjk1MmQxYjAwMDQ1MSIs
+        CiAgICAgICJhdXRob3IiOiAiVHJhdmlzIEJlbGwiLAogICAgICAiY29udGVu
+        dCI6ICJJIGZlbHQgbGlrZSB0aGlzIHdhcyBhIHRyZW1lbmRvdXMgZW5kIHRv
+        IE5vbGFuJ3MgQmF0bWFuIHRyaWxvZ3kuIFRoZSBEYXJrIEtuaWdodCBSaXNl
+        cyBtYXkgdmVyeSB3ZWxsIGhhdmUgYmVlbiB0aGUgd2Vha2VzdCBvZiBhbGwg
+        MyBmaWxtcyBidXQgd2hlbiB5b3UncmUgdGFsa2luZyBhYm91dCBhIHNjYWxl
+        IG9mIHRoaXMgbWFnbml0dWRlLCBpdCBzdGlsbCBtYWtlcyB0aGlzIG9uZSBv
+        ZiB0aGUgYmVzdCBtb3ZpZXMgSSd2ZSBzZWVuIGluIHRoZSBwYXN0IGZldyB5
+        ZWFycy5cclxuXHJcbkkgZXhwZWN0ZWQgYSBsaXR0bGUgbW9yZSBfQmF0bWFu
+        XyB0aGFuIHdlIGdvdCAoZXNwZWNpYWxseSB3aXRoIGEgcnVudGltZSBvZiAy
+        OjQ1KSBidXQgd2hpbGUgdGhlIHN0b3J5IGFyb3VuZCB0aGUgZmFsbCBvZiBC
+        cnVjZSBXYXluZSBhbmQgR290aGFtIENpdHkgd2FzIGdvb2QgSSBkaWRuJ3Qg
+        ZmluZCBpdCBhbWF6aW5nLiBUaGlzIG1pZ2h0IGJlIGluIGZhY3QsIG9uZSBv
+        ZiBteSBvbmx5IGNyaXRpY2lzbXPigJRpdCB3YXMgYSBsb25nIG1vdmllIGJ1
+        dCBzdGlsbCwgbWF5YmUgdG9vIHNob3J0IGZvciB0aGUgc3RvcnkgSSBmZWx0
+        IHdhcyByZWFsbHkgYmVpbmcgdG9sZC4gSSBmZWVsIGNvbmZpZGVudCBpbiBz
+        YXlpbmcgdGhpcyBiaWcgb2YgYSBzdG9yeSBjb3VsZCBoYXZlIGJlZW4gc3Bs
+        aXQgaW50byB0d28gbW92aWVzLlxyXG5cclxuVGhlIGFjdGluZywgZWRpdGlu
+        ZywgcGFjaW5nLCBzb3VuZHRyYWNrIGFuZCBvdmVyYWxsIHRoZW1lIHdlcmUg
+        dGhlIHNhbWUgJ2FzLWNsb3NlLXRvLXBlcmZlY3QnIGFzIGV2ZXIgd2l0aCBh
+        bnkgb2YgQ2hyaXN0b3BoZXIgTm9sYW4ncyBvdGhlciBmaWxtcy4gTWFuIGRv
+        ZXMgdGhpcyBndXkga25vdyBob3cgdG8gbWFrZSBhIG1vdmllIVxyXG5cclxu
+        WW91IGRvbid0IGhhdmUgdG8gYmUgYSBCYXRtYW4gZmFuIHRvIGVuam95IHRo
+        ZXNlIG1vdmllcyBhbmQgSSBob3BlIGFueSBvZiB5b3Ugd2hvIGZlZWwgdGhp
+        cyB3YXkgcmUtY29uc2lkZXIuIFRoZXNlIDMgbW92aWVzIGFyZSB3aXRob3V0
+        IGEgZG91YnQgaW4gbXkgbWluZCwgdGhlIGZpbmVzdCBkaXNwbGF5IG9mIGNv
+        bWljIG15dGhvbG9neSBldmVyIHRvbGQgb24gdGhlIGJpZyBzY3JlZW4uIFRo
+        ZXkgYXJlIGRhbW4gbmVhciBwZXJmZWN0LiIsCiAgICAgICJ1cmwiOiAiaHR0
+        cDovL2oubXAvUVNqQUsyIgogICAgfSwKICAgIHsKICAgICAgImlkIjogIjUw
+        MTNiYzc2NzYwZWUzNzJjYjAwMjUzZSIsCiAgICAgICJhdXRob3IiOiAiQ2hy
+        aXMiLAogICAgICAiY29udGVudCI6ICJJIHBlcnNvbmFsbHkgdGhvdWdodCB0
+        aGlzIGZpbG0gaXMgb24gcGFyIGlmIG5vdCBiZXR0ZXIgdGhhbiB0aGUgRGFy
+        ayBLbmlnaHQuXHJcblxyXG5XaGlsc3Qgc29tZSB0aGluayB0aGUgZmlsbSBp
+        cyB0b28gbG9uZyBmb3IgdGhlIHN0b3J5IEkgZGlkbid0IGZpbmQgdGhpcy4g
+        VGhlIGxlbmd0aCBvZiB0aGUgZmlsbSBpcyBsb25nZXIgdGhhbiBzb21lIChi
+        dXQgZG9lc24ndCBmZWVsIGl0KSwgSSBsaWtlZCB0aGF0IHRoZSBmaWxtIHRv
+        b2sgaXQncyB0aW1lIHJhdGhlciB0aGFuIHNob3ZpbmcgbW9yZSBlbGVtZW50
+        cyBpbiBpdCAtIEkgdGhpbmsgdGhpcyBjb250cmlidXRlZCB0byB0aGUgZHJh
+        bWF0aWMgZW5kaW5nIChtdWNoIGxpa2UgYSBjbGFzc2ljYWwgcGllY2Ugb2Yg
+        bXVzaWMgd2lsbCBiZSByZWxheGVkIGFuZCBjYWxtIGJlZm9yZSB0aGUgZmlu
+        YWwgY3Jlc2NlbmRvKS5cclxuXHJcbkF0IHRoZSBlbmQgb2YgdGhlIGRheSB3
+        aGV0aGVyIHlvdSBsaWtlIHRoaXMgZmlsbSB3aWxsIGJvaWwgZG93biB0byBp
+        ZiB5b3UgbGlrZSBmaWxtcyBDaHJpc3RvcGhlciBOb2xhbiBoYXMgZGlyZWN0
+        ZWQgYW5kL29yIHlvdSBsaWtlIHRoZSBDaHJpc3RvcGhlciBOb2xhbiBCYXRt
+        YW4gc2VyaWVzIHNvIGZhci5cclxuXHJcblN0dXBlbmRvdXNseSBnb29kIGZp
+        bG0gaW4gbXkgb3Bpbmlvbi4iLAogICAgICAidXJsIjogImh0dHA6Ly9qLm1w
+        L1AxOGRnMSIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICI1MTQyOWE3NTE5
+        YzI5NTUyZTEwZWJhMTYiLAogICAgICAiYXV0aG9yIjogIkdlZWtNYXNoZXIi
+        LAogICAgICAiY29udGVudCI6ICJUaGUgRGFyayBLbmlnaHQgUmlzZXMgaXMg
+        b25lIG9mIHRoZSBiZXN0IG1vdmllcyB0byBjb21lIG91dCBpbiAyMDEyLiBU
+        aGUgc3RvcnkgY29tcGVscyB5b3UgdG8gd2F0Y2ggaXQgdGltZSBhbmQgdGlt
+        ZSBhZ2Fpbi4gSXQgYWxzbyBoYXMgSSBvZiwgSSBteSBvcGluaW9uLCB0aGUg
+        YmVzdCBiYWQgZ3V5cyBpbiBhbnkgbW92aWUsIEJhbmUhIEJhdG1hbiB3YXMg
+        d2VsbCBwbGF5ZWQgYXMgYWxsIHdheXMgYW5kIHRoZSBjYXN0IHdoZXJlIHdl
+        bGwgc2VsZWN0ZWQuIEkgdGhpbmsgdGhpcyBtb3ZpZSBpcyB0aGUgYmVzdCBi
+        YXRtYW4gdG8gc2VlIHRoZSBsaWdodCBvZiBkYXkgb3IgdGhlIGRhcmtlc3Qg
+        bmlnaHRzIChwdW4gaW50ZW5kZWQpLiIsCiAgICAgICJ1cmwiOiAiaHR0cDov
+        L2oubXAvMTlueUlXZyIKICAgIH0KICBdLAogICJ0b3RhbF9wYWdlcyI6IDEs
+        CiAgInRvdGFsX3Jlc3VsdHMiOiAzCn0=
+    http_version: 
+  recorded_at: Wed, 19 Aug 2015 22:25:01 GMT
+recorded_with: VCR 2.9.3

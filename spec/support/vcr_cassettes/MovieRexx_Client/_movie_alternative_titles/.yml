@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/movie/fight-club/alternative_titles?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '118'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"a7664969471f59db2c272c672df92ae1"'
+      X-Apiary-Transaction-Id:
+      - 55d5020cfe848d0700e86c2c
+      Date:
+      - Wed, 19 Aug 2015 22:24:12 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICAgImlkIjogNTUwLAogICAgInRpdGxlcyI6IFsKICAgICAgICB7CiAg
+        ICAgICAgICAgICJpc29fMzE2Nl8xIjogIlBMIiwKICAgICAgICAgICAgInRp
+        dGxlIjogIlBvZHppZW1ueSBrcsSFZyIKICAgICAgICB9LAogICAgICAgIHsK
+        ICAgICAgICAgICAgImlzb18zMTY2XzEiOiAiVFciLAogICAgICAgICAgICAi
+        dGl0bGUiOiAi6ayl6Zmj5L+x5qiC6YOoIgogICAgICAgIH0KICAgIF0KfQ==
+    http_version: 
+  recorded_at: Wed, 19 Aug 2015 22:24:12 GMT
+recorded_with: VCR 2.9.3

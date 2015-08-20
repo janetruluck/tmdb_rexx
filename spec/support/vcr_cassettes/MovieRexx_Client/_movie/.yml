@@ -1,0 +1,105 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/movie/fight-club?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '119'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"517bfb9f394e27a444a8fcba967944d0"'
+      X-Apiary-Transaction-Id:
+      - 55d5020afe848d0700e86c29
+      Date:
+      - Wed, 19 Aug 2015 22:24:10 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "adult": false,
+          "backdrop_path": "/hNFMawyNDWZKKHU4GYCBz1krsRM.jpg",
+          "belongs_to_collection": null,
+          "budget": 63000000,
+          "genres": [
+            {
+              "id": 18,
+              "name": "Drama"
+            }
+          ],
+          "homepage": "",
+          "id": 550,
+          "imdb_id": "tt0137523",
+          "original_language": "en",
+          "original_title": "Fight Club",
+          "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+          "popularity": 2.50307202280779,
+          "poster_path": "/2lECpi35Hnbpa4y46JX0aY3AWTy.jpg",
+          "production_companies": [
+            {
+              "name": "20th Century Fox",
+              "id": 25
+            },
+            {
+              "name": "Fox 2000 Pictures",
+              "id": 711
+            },
+            {
+              "name": "Regency Enterprises",
+              "id": 508
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "DE",
+              "name": "Germany"
+            },
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "1999-10-14",
+          "revenue": 100853753,
+          "runtime": 139,
+          "spoken_languages": [
+            {
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "How much can you know about yourself if you've never been in a fight?",
+          "title": "Fight Club",
+          "video": false,
+          "vote_average": 7.7,
+          "vote_count": 3185
+        }
+    http_version: 
+  recorded_at: Wed, 19 Aug 2015 22:24:10 GMT
+recorded_with: VCR 2.9.3
