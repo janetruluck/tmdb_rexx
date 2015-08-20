@@ -5,6 +5,7 @@ require 'movie_rexx/default'
 require 'movie_rexx/request'
 # Client
 require 'movie_rexx/client/movie'
+require 'movie_rexx/client/certification'
 
 module MovieRexx
   class Client
@@ -14,6 +15,7 @@ module MovieRexx
     include MovieRexx::Request
     # Client
     include MovieRexx::Client::Movie
+    include MovieRexx::Client::Certification
 
     def initialize(options = {})
       MovieRexx::Configuration.keys.each do |key|
