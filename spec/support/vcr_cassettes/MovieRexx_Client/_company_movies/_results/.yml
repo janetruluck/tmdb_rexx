@@ -1,0 +1,254 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/company/company-id/movies?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '117'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"0d4728bc0fc91d3418755c39f0a78511"'
+      X-Apiary-Transaction-Id:
+      - 55d73cd17b6ea20700049437
+      Date:
+      - Fri, 21 Aug 2015 14:59:32 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "id": 1,
+            "page": 1,
+            "results": [
+                {
+                    "backdrop_path": "/gmLMaDXi4lFWG8WitaCYOJS5GtL.jpg",
+                    "id": 12180,
+                    "original_title": "Star Wars: The Clone Wars",
+                    "release_date": "2008-08-15",
+                    "poster_path": "/xd6yhmtS6mEURZLwUDT5raEMbf.jpg",
+                    "title": "Star Wars: The Clone Wars",
+                    "vote_average": 7.7000000000000002,
+                    "vote_count": 12
+                },
+                {
+                    "backdrop_path": "/alNMTW47nZABwvwz3Gjwarl4btE.jpg",
+                    "id": 217,
+                    "original_title": "Indiana Jones and the Kingdom of the Crystal Skull",
+                    "release_date": "2008-05-22",
+                    "poster_path": "/6Lv49E0aEusW9vKEMgQgLdetlmO.jpg",
+                    "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+                    "vote_average": 6.7000000000000002,
+                    "vote_count": 48
+                },
+                {
+                    "backdrop_path": "/gZxY7VDOI48gjhnDJK1E6n9uHWk.jpg",
+                    "id": 42979,
+                    "original_title": "Robot Chicken: Star Wars",
+                    "release_date": "2007-07-17",
+                    "poster_path": "/3vcBL7zNVMhLdFSEh3xiquhdp1x.jpg",
+                    "title": "Robot Chicken: Star Wars",
+                    "vote_average": 8.0,
+                    "vote_count": 1
+                },
+                {
+                    "backdrop_path": "/zHrxWn6P6Zjip9fJmmuEbzDd76o.jpg",
+                    "id": 1895,
+                    "original_title": "Star Wars: Episode III - Revenge of the Sith",
+                    "release_date": "2005-05-19",
+                    "poster_path": "/tgr5Pdy7ehZYBqBkN2K7Q02xgOb.jpg",
+                    "title": "Star Wars: Episode III - Revenge of the Sith",
+                    "vote_average": 7.9000000000000004,
+                    "vote_count": 59
+                },
+                {
+                    "backdrop_path": "/560F7BPaxRy8BsOfVU6cW4ivM46.jpg",
+                    "id": 1894,
+                    "original_title": "Star Wars: Episode II - Attack of the Clones",
+                    "release_date": "2002-05-16",
+                    "poster_path": "/2vcNFtrZXNwIcBgH5e2xXCmVR8t.jpg",
+                    "title": "Star Wars: Episode II - Attack of the Clones",
+                    "vote_average": 7.5999999999999996,
+                    "vote_count": 69
+                },
+                {
+                    "backdrop_path": "/4KD7RynRLIGqWjDvwwta5iBDvgS.jpg",
+                    "id": 47025,
+                    "original_title": "R2-D2: Beneath the Dome",
+                    "release_date": "2001-11-25",
+                    "poster_path": "/wTqLGbnUn5yMgh3fD3HUWrv0gKl.jpg",
+                    "title": "R2-D2: Beneath the Dome",
+                    "vote_average": 0.0,
+                    "vote_count": 0
+                },
+                {
+                    "backdrop_path": "/rtG5TRrQXf11jlO9WqcYTq46jKa.jpg",
+                    "id": 1893,
+                    "original_title": "Star Wars: Episode I - The Phantom Menace",
+                    "release_date": "1999-05-19",
+                    "poster_path": "/n8V09dDc02KsSN6Q4hC2BX6hN8X.jpg",
+                    "title": "Star Wars: Episode I - The Phantom Menace",
+                    "vote_average": 7.2000000000000002,
+                    "vote_count": 74
+                },
+                {
+                    "backdrop_path": "/sBAyZPvS3RmX6SFr0fJ9bDeRmP5.jpg",
+                    "id": 74823,
+                    "original_title": "Star Wars: Droids - Treasure of the Hidden Planet",
+                    "release_date": "1997-02-11",
+                    "poster_path": "/sFQatyz7dCONSlQg6NP3F3kJ0QP.jpg",
+                    "title": "Star Wars: Droids - Treasure of the Hidden Planet",
+                    "vote_average": 0.0,
+                    "vote_count": 0
+                },
+                {
+                    "backdrop_path": null,
+                    "id": 75380,
+                    "original_title": "Star Wars: Droids - The Pirate and the Prince",
+                    "release_date": "1997-02-11",
+                    "poster_path": "/tzMyVe7heytMepJJCJq21n6FGWV.jpg",
+                    "title": "Star Wars: Droids - The Pirate and the Prince",
+                    "vote_average": 0.0,
+                    "vote_count": 0
+                },
+                {
+                    "backdrop_path": "/pY7VAT4gtvVy38UuVEPhTPyfiYJ.jpg",
+                    "id": 89,
+                    "original_title": "Indiana Jones and the Last Crusade",
+                    "release_date": "1989-05-24",
+                    "poster_path": "/1xlQmxqKbkCb2THC9rwgr75p25B.jpg",
+                    "title": "Indiana Jones and the Last Crusade",
+                    "vote_average": 8.8000000000000007,
+                    "vote_count": 58
+                },
+                {
+                    "backdrop_path": "/n1wLikbs9EjLbZXOPcymEsrJctZ.jpg",
+                    "id": 847,
+                    "original_title": "Willow",
+                    "release_date": "1988-05-20",
+                    "poster_path": "/5iara9JMotSn9r7TM4tL7LFyfdu.jpg",
+                    "title": "Willow",
+                    "vote_average": 8.0,
+                    "vote_count": 11
+                },
+                {
+                    "backdrop_path": "/9zNu80EjtkvDImE4goHFsI6z3JW.jpg",
+                    "id": 10372,
+                    "original_title": "Ewoks: The Battle for Endor",
+                    "release_date": "1985-11-24",
+                    "poster_path": "/qKWa0i67AY2XNzvg7yXfGLX1Vcf.jpg",
+                    "title": "Ewoks: The Battle for Endor",
+                    "vote_average": 10.0,
+                    "vote_count": 2
+                },
+                {
+                    "backdrop_path": "/dmLfnPklVIXpOYbJaUKF3pgXsWk.jpg",
+                    "id": 1884,
+                    "original_title": "The Ewok Adventure",
+                    "release_date": "1984-11-25",
+                    "poster_path": "/y6HdTlqgcZ6EdsKR1uP03WgBe0C.jpg",
+                    "title": "The Ewok Adventure",
+                    "vote_average": 10.0,
+                    "vote_count": 4
+                },
+                {
+                    "backdrop_path": "/uG6AChg2FA3EmRuJDezDqoIpQzB.jpg",
+                    "id": 87,
+                    "original_title": "Indiana Jones and the Temple of Doom",
+                    "release_date": "1984-05-23",
+                    "poster_path": "/c8wjjTnqxnG835iSEeWUJJifSVp.jpg",
+                    "title": "Indiana Jones and the Temple of Doom",
+                    "vote_average": 7.7999999999999998,
+                    "vote_count": 40
+                },
+                {
+                    "backdrop_path": "/i4Qh3cHNS3vcJAJoGoVSXePMGQV.jpg",
+                    "id": 36751,
+                    "original_title": "Twice Upon a Time",
+                    "release_date": "1983-08-05",
+                    "poster_path": "/r9kyqDYhzgelcnSakBp0w5C5i7z.jpg",
+                    "title": "Twice Upon a Time",
+                    "vote_average": 8.5,
+                    "vote_count": 1
+                },
+                {
+                    "backdrop_path": "/bvJOpyHYWACDusvQvXxKEHFNjce.jpg",
+                    "id": 1892,
+                    "original_title": "Star Wars: Episode VI - Return of the Jedi",
+                    "release_date": "1983-05-25",
+                    "poster_path": "/jx5p0aHlbPXqe3AH9G15NvmWaqQ.jpg",
+                    "title": "Star Wars: Episode VI - Return of the Jedi",
+                    "vote_average": 8.6999999999999993,
+                    "vote_count": 105
+                },
+                {
+                    "backdrop_path": "/i5ubqxYkkqZpwgw6nHHUudOuGTh.jpg",
+                    "id": 85,
+                    "original_title": "Raiders of the Lost Ark",
+                    "release_date": "1981-06-12",
+                    "poster_path": "/tjGpsV0vKKHECtdsQoVwIXsDj3.jpg",
+                    "title": "Raiders of the Lost Ark",
+                    "vote_average": 8.6999999999999993,
+                    "vote_count": 59
+                },
+                {
+                    "backdrop_path": "/AkE7LQs2hPMG5tpWYcum847Knre.jpg",
+                    "id": 1891,
+                    "original_title": "Star Wars: Episode V - The Empire Strikes Back",
+                    "release_date": "1980-05-21",
+                    "poster_path": "/dKz98Lyda4m1QaUUUsUpXFpYCXN.jpg",
+                    "title": "Star Wars: Episode V - The Empire Strikes Back",
+                    "vote_average": 9.0,
+                    "vote_count": 144
+                },
+                {
+                    "backdrop_path": "/r0v9dayXd1IH5WPWFBWv52tGHkB.jpg",
+                    "id": 11,
+                    "original_title": "Star Wars: Episode IV - A New Hope",
+                    "release_date": "1977-05-25",
+                    "poster_path": "/tvSlBzAdRE29bZe5yYWrJ2ds137.jpg",
+                    "title": "Star Wars: Episode IV - A New Hope",
+                    "vote_average": 9.0,
+                    "vote_count": 149
+                },
+                {
+                    "backdrop_path": "/qCECROwx3TRUEgoZv2Mz2D723QC.jpg",
+                    "id": 10,
+                    "original_title": "Star Wars Collection",
+                    "release_date": null,
+                    "poster_path": "/ghd5zOQnDaDW1mxO7R5fXXpZMu.jpg",
+                    "title": "Star Wars Collection",
+                    "vote_average": 0.0,
+                    "vote_count": 0
+                }
+            ],
+            "total_pages": 1,
+            "total_results": 20
+        }
+    http_version: 
+  recorded_at: Fri, 21 Aug 2015 14:59:32 GMT
+recorded_with: VCR 2.9.3
