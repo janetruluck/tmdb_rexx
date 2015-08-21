@@ -7,3 +7,6 @@ rvm:
   - 2.1.0
   - 2.0.0
   - jruby-head
+addons:
+  code_climate:
+    repo_token: 0e852ef62c6a1a460825a3b6963870f323526253921c0a162a8642bb72ecca82

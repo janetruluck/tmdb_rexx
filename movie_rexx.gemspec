@@ -31,4 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "vcr"#, "~> 1.13.0"
   spec.add_development_dependency "webmock"#, "~> 1.13.0"
   spec.add_development_dependency "pry"
+  spec.add_development_dependency "codeclimate-test-reporter"
 end
