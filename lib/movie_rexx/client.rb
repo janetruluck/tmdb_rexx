@@ -9,6 +9,7 @@ require 'movie_rexx/client/certification'
 require 'movie_rexx/client/changes'
 require 'movie_rexx/client/collection'
 require 'movie_rexx/client/company'
+require 'movie_rexx/client/credit'
 
 module MovieRexx
   class Client
@@ -22,6 +23,7 @@ module MovieRexx
     include MovieRexx::Client::Changes
     include MovieRexx::Client::Collection
     include MovieRexx::Client::Company
+    include MovieRexx::Client::Credit
 
     def initialize(options = {})
       MovieRexx::Configuration.keys.each do |key|
