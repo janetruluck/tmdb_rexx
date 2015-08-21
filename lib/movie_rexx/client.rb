@@ -12,6 +12,7 @@ require 'movie_rexx/client/company'
 require 'movie_rexx/client/credit'
 require 'movie_rexx/client/discover'
 require 'movie_rexx/client/find'
+require 'movie_rexx/client/genre'
 
 module MovieRexx
   class Client
@@ -28,6 +29,7 @@ module MovieRexx
     include MovieRexx::Client::Credit
     include MovieRexx::Client::Discover
     include MovieRexx::Client::Find
+    include MovieRexx::Client::Genre
 
     def initialize(options = {})
       MovieRexx::Configuration.keys.each do |key|
