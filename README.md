@@ -1,17 +1,17 @@
-# MovieRexx
+# TmdbRexx
 
-[![Build Status](https://travis-ci.org/FilmRexx/movie_rexx.svg?branch=master)](https://travis-ci.org/FilmRexx/movie_rexx)
-[![Code Climate](https://codeclimate.com/github/FilmRexx/movie_rexx/badges/gpa.svg)](https://codeclimate.com/github/FilmRexx/movie_rexx)
-[![Test Coverage](https://codeclimate.com/github/FilmRexx/movie_rexx/badges/coverage.svg)](https://codeclimate.com/github/FilmRexx/movie_rexx/coverage)
+[![Build Status](https://travis-ci.org/jasontruluck/tmdb_rexx.svg?branch=master)](https://travis-ci.org/jasontruluck/tmdb_rexx)
+[![Code Climate](https://codeclimate.com/github/jasontruluck/tmdb_rexx/badges/gpa.svg)](https://codeclimate.com/github/jasontruluck/tmdb_rexx)
+[![Test Coverage](https://codeclimate.com/github/jasontruluck/tmdb_rexx/badges/coverage.svg)](https://codeclimate.com/github/jasontruluck/tmdb_rexx/coverage)
 
-This is MovieRexx a simple wrapper around the TMDB API v3 written in ruby.
+This is TmdbRexx a simple wrapper around the TMDB API v3 written in ruby.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'movie_rexx'
+gem 'tmdb_rexx'
 ```
 
 And then execute:
@@ -20,11 +20,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install movie_rexx
+    $ gem install tmdb_rexx
 
 ## Documentation
 
-http://rdoc.info/github/FilmRexx/movie_rexx/master/index
+http://rdoc.info/github/jasontruluck/tmdb_rexx/master/index
 
 ## Configuration
 
@@ -40,10 +40,10 @@ Configuration allows for specifying TMDB api information
 
 `language` - The language you would like to have information returned in. Defaults to `en`
 
-Within an initializer `config/initializer/movie_rexx.rb`
+Within an initializer `config/initializer/tmdb_rexx.rb`
 
 ```ruby
-MovieRexx.configure do |c|
+TmdbRexx.configure do |c|
   c.api_key = "some_api_key" # Required for functionality
   c.include_adult = true     # this includes adult films and tv
   c.language = "fr"          # this changes the language to French where supported
@@ -57,7 +57,7 @@ After checking out the repo, run `bundle install` to install dependencies. Then,
 
 *Make sure to write test!*
 
-1. Fork it ( https://github.com/[my-github-username]/movie_rexx/fork )
+1. Fork it ( https://github.com/[my-github-username]/tmdb_rexx/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

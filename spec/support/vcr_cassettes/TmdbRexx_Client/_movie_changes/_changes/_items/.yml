@@ -1,0 +1,443 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/movie/fight-club/changes?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '93'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"691e0c90d7869a78ead95cb777b870dd"'
+      X-Apiary-Transaction-Id:
+      - 55dd3142074c0c0700bca93c
+      Date:
+      - Wed, 26 Aug 2015 03:23:47 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "changes": [
+                {
+                    "key": "general",
+                    "items": [
+                        {
+                            "id": "507436ef19c2957f27000054",
+                            "action": "created",
+                            "time": "2012-10-09 14:38:39 UTC"
+                        }
+                    ]
+                },
+                {
+                    "key": "original_title",
+                    "items": [
+                        {
+                            "id": "507436ef19c2957f27000055",
+                            "action": "added",
+                            "time": "2012-10-09 14:38:39 UTC",
+                            "value": "The Duke"
+                        }
+                    ]
+                },
+                {
+                    "key": "overview",
+                    "items": [
+                        {
+                            "id": "507436f619c2957efe000048",
+                            "action": "deleted",
+                            "time": "2012-10-09 14:38:46 UTC",
+                            "iso_639_1": "en",
+                            "original_value": "hello hello"
+                        },
+                        {
+                            "id": "507436ef19c2957f27000056",
+                            "action": "added",
+                            "time": "2012-10-09 14:38:39 UTC",
+                            "iso_639_1": "en",
+                            "value": "hello hello"
+                        }
+                    ]
+                },
+                {
+                    "key": "imdb_id",
+                    "items": [
+                        {
+                            "id": "507436ef19c2957f27000057",
+                            "action": "added",
+                            "time": "2012-10-09 14:38:39 UTC",
+                            "value": "tt0196516"
+                        }
+                    ]
+                },
+                {
+                    "key": "budget",
+                    "items": [
+                        {
+                            "id": "507436ef19c2957f27000058",
+                            "action": "added",
+                            "time": "2012-10-09 14:38:39 UTC",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "key": "revenue",
+                    "items": [
+                        {
+                            "id": "507436ef19c2957f27000059",
+                            "action": "added",
+                            "time": "2012-10-09 14:38:39 UTC",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "key": "translations",
+                    "items": [
+                        {
+                            "id": "507436ef19c2957f2700005a",
+                            "action": "added",
+                            "time": "2012-10-09 14:38:39 UTC",
+                            "value": "en"
+                        }
+                    ]
+                },
+                {
+                    "key": "runtime",
+                    "items": [
+                        {
+                            "id": "507436ef19c2957f2700005b",
+                            "action": "added",
+                            "time": "2012-10-09 14:38:39 UTC",
+                            "iso_639_1": "en",
+                            "value": 88
+                        }
+                    ]
+                },
+                {
+                    "key": "adult",
+                    "items": [
+                        {
+                            "id": "507436ef19c2957f2700005c",
+                            "action": "updated",
+                            "time": "2012-10-09 14:38:39 UTC",
+                            "value": false
+                        }
+                    ]
+                },
+                {
+                    "key": "spoken_languages",
+                    "items": [
+                        {
+                            "id": "5074370019c2957efe00004c",
+                            "action": "added",
+                            "time": "2012-10-09 14:38:56 UTC",
+                            "value": "en"
+                        }
+                    ]
+                },
+                {
+                    "key": "production_countries",
+                    "items": [
+                        {
+                            "id": "5074370719c2957f2700005e",
+                            "action": "added",
+                            "time": "2012-10-09 14:39:03 UTC",
+                            "value": "US"
+                        },
+                        {
+                            "id": "5074370419c29518f6000902",
+                            "action": "added",
+                            "time": "2012-10-09 14:39:00 UTC",
+                            "value": "GB"
+                        }
+                    ]
+                },
+                {
+                    "key": "genres",
+                    "items": [
+                        {
+                            "id": "5074371019c2955c9c0001ee",
+                            "action": "added",
+                            "time": "2012-10-09 14:39:12 UTC",
+                            "value": {
+                                "name": "Family",
+                                "id": 10751
+                            }
+                        },
+                        {
+                            "id": "5074371019c2955c9c0001ed",
+                            "action": "added",
+                            "time": "2012-10-09 14:39:12 UTC",
+                            "value": {
+                                "name": "Drama",
+                                "id": 18
+                            }
+                        },
+                        {
+                            "id": "5074371019c2955c9c0001ec",
+                            "action": "added",
+                            "time": "2012-10-09 14:39:12 UTC",
+                            "value": {
+                                "name": "Comedy",
+                                "id": 35
+                            }
+                        }
+                    ]
+                },
+                {
+                    "key": "releases",
+                    "items": [
+                        {
+                            "id": "5074374b19c2957ec200004e",
+                            "action": "added",
+                            "time": "2012-10-09 14:40:11 UTC",
+                            "value": {
+                                "iso_3166_1": "US",
+                                "release_date": "1999-01-01",
+                                "certification": "G",
+                                "primary": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "key": "crew",
+                    "items": [
+                        {
+                            "id": "507437d319c2957f27000078",
+                            "action": "added",
+                            "time": "2012-10-09 14:42:27 UTC",
+                            "value": {
+                                "person_id": 61247,
+                                "department": "Sound",
+                                "job": "Music"
+                            }
+                        },
+                        {
+                            "id": "507437c719c29518f600091b",
+                            "action": "added",
+                            "time": "2012-10-09 14:42:15 UTC",
+                            "value": {
+                                "person_id": 61244,
+                                "department": "Production",
+                                "job": "Executive Producer"
+                            }
+                        },
+                        {
+                            "id": "507437be19c2955c9c00020c",
+                            "action": "added",
+                            "time": "2012-10-09 14:42:06 UTC",
+                            "value": {
+                                "person_id": 94980,
+                                "department": "Production",
+                                "job": "Executive Producer"
+                            }
+                        },
+                        {
+                            "id": "507437b519c2955c9c000207",
+                            "action": "added",
+                            "time": "2012-10-09 14:41:57 UTC",
+                            "value": {
+                                "person_id": 955496,
+                                "department": "Production",
+                                "job": "Executive Producer"
+                            }
+                        },
+                        {
+                            "id": "507437a919c295228f0012bf",
+                            "action": "added",
+                            "time": "2012-10-09 14:41:45 UTC",
+                            "value": {
+                                "person_id": 950332,
+                                "department": "Production",
+                                "job": "Producer"
+                            }
+                        },
+                        {
+                            "id": "5074379b19c2955c9c000202",
+                            "action": "added",
+                            "time": "2012-10-09 14:41:31 UTC",
+                            "value": {
+                                "person_id": 61244,
+                                "department": "Writing",
+                                "job": "Screenplay"
+                            }
+                        },
+                        {
+                            "id": "5074379119c295228f0012bb",
+                            "action": "added",
+                            "time": "2012-10-09 14:41:21 UTC",
+                            "value": {
+                                "person_id": 94980,
+                                "department": "Writing",
+                                "job": "Screenplay"
+                            }
+                        },
+                        {
+                            "id": "5074378819c2957f2700006a",
+                            "action": "added",
+                            "time": "2012-10-09 14:41:12 UTC",
+                            "value": {
+                                "person_id": 1106571,
+                                "department": "Writing",
+                                "job": "Screenplay"
+                            }
+                        },
+                        {
+                            "id": "5074378119c29518f6000911",
+                            "action": "added",
+                            "time": "2012-10-09 14:41:05 UTC",
+                            "value": {
+                                "person_id": 1106570,
+                                "department": "Writing",
+                                "job": "Story"
+                            }
+                        },
+                        {
+                            "id": "5074377119c295228f0012b4",
+                            "action": "added",
+                            "time": "2012-10-09 14:40:49 UTC",
+                            "value": {
+                                "person_id": 105746,
+                                "department": "Directing",
+                                "job": "Director"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "key": "cast",
+                    "items": [
+                        {
+                            "id": "5074382d19c2951aaa00055c",
+                            "action": "added",
+                            "time": "2012-10-09 14:43:57 UTC",
+                            "value": {
+                                "person_id": 129996,
+                                "character": "Basil Rathwood",
+                                "order": 9
+                            }
+                        },
+                        {
+                            "id": "5074382719c29518f6000925",
+                            "action": "added",
+                            "time": "2012-10-09 14:43:51 UTC",
+                            "value": {
+                                "person_id": 178914,
+                                "character": "Lord Huffbottom",
+                                "order": 8
+                            }
+                        },
+                        {
+                            "id": "5074381c19c29519b0000505",
+                            "action": "added",
+                            "time": "2012-10-09 14:43:40 UTC",
+                            "value": {
+                                "person_id": 165458,
+                                "character": "Mrs. Puddingforth",
+                                "order": 7
+                            }
+                        },
+                        {
+                            "id": "5074381519c2957efe000061",
+                            "action": "added",
+                            "time": "2012-10-09 14:43:33 UTC",
+                            "value": {
+                                "person_id": 41234,
+                                "character": "Lady Fautblossom",
+                                "order": 6
+                            }
+                        },
+                        {
+                            "id": "5074380e19c2955c9c000221",
+                            "action": "added",
+                            "time": "2012-10-09 14:43:26 UTC",
+                            "value": {
+                                "person_id": 186327,
+                                "character": "Shamela Stewart",
+                                "order": 5
+                            }
+                        },
+                        {
+                            "id": "5074380819c2955c9c00021e",
+                            "action": "added",
+                            "time": "2012-10-09 14:43:20 UTC",
+                            "value": {
+                                "person_id": 93035,
+                                "character": "Cecil Cavendish",
+                                "order": 4
+                            }
+                        },
+                        {
+                            "id": "5074380219c29518f6000921",
+                            "action": "added",
+                            "time": "2012-10-09 14:43:14 UTC",
+                            "value": {
+                                "person_id": 98429,
+                                "character": "Florian",
+                                "order": 3
+                            }
+                        },
+                        {
+                            "id": "507437fc19c295228f0012ca",
+                            "action": "added",
+                            "time": "2012-10-09 14:43:08 UTC",
+                            "value": {
+                                "person_id": 149837,
+                                "character": "Charlotte",
+                                "order": 2
+                            }
+                        },
+                        {
+                            "id": "507437f419c2957f2700007e",
+                            "action": "added",
+                            "time": "2012-10-09 14:43:00 UTC",
+                            "value": {
+                                "person_id": 1751,
+                                "character": "Clive Chives",
+                                "order": 1
+                            }
+                        },
+                        {
+                            "id": "507437ec19c2957ec2000063",
+                            "action": "added",
+                            "time": "2012-10-09 14:42:52 UTC",
+                            "value": {
+                                "person_id": 12642,
+                                "character": "The Duke",
+                                "order": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    http_version: 
+  recorded_at: Wed, 26 Aug 2015 03:23:56 GMT
+recorded_with: VCR 2.9.3

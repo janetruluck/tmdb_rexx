@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/movie/fight-club/translations?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '102'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"8a7020d7e666b95e7e796f384f6b3c43"'
+      X-Apiary-Transaction-Id:
+      - 55dd3131685712070093c842
+      Date:
+      - Wed, 26 Aug 2015 03:23:29 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICAgImlkIjogNTUwLAogICAgInRyYW5zbGF0aW9ucyI6IFsKICAgICAg
+        ICB7CiAgICAgICAgICAgICJpc29fNjM5XzEiOiAiZW4iLAogICAgICAgICAg
+        ICAibmFtZSI6ICJFbmdsaXNoIiwKICAgICAgICAgICAgImVuZ2xpc2hfbmFt
+        ZSI6ICJFbmdsaXNoIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAg
+        ICAiaXNvXzYzOV8xIjogImVzIiwKICAgICAgICAgICAgIm5hbWUiOiAiRXNw
+        YcOxb2wiLAogICAgICAgICAgICAiZW5nbGlzaF9uYW1lIjogIlNwYW5pc2gi
+        CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgICJpc29fNjM5XzEi
+        OiAidWsiLAogICAgICAgICAgICAibmFtZSI6ICLQo9C60YDQsNGX0L3RgdGM
+        0LrQuNC5IiwKICAgICAgICAgICAgImVuZ2xpc2hfbmFtZSI6ICJVa3JhaW5p
+        YW4iCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgICJpc29fNjM5
+        XzEiOiAiZGUiLAogICAgICAgICAgICAibmFtZSI6ICJEZXV0c2NoIiwKICAg
+        ICAgICAgICAgImVuZ2xpc2hfbmFtZSI6ICJHZXJtYW4iCiAgICAgICAgfSwK
+        ICAgICAgICB7CiAgICAgICAgICAgICJpc29fNjM5XzEiOiAicHQiLAogICAg
+        ICAgICAgICAibmFtZSI6ICJQb3J0dWd1w6pzIiwKICAgICAgICAgICAgImVu
+        Z2xpc2hfbmFtZSI6ICJQb3J0dWd1ZXNlIgogICAgICAgIH0sCiAgICAgICAg
+        ewogICAgICAgICAgICAiaXNvXzYzOV8xIjogImZyIiwKICAgICAgICAgICAg
+        Im5hbWUiOiAiRnJhbsOnYWlzIiwKICAgICAgICAgICAgImVuZ2xpc2hfbmFt
+        ZSI6ICJGcmVuY2giCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAg
+        ICJpc29fNjM5XzEiOiAibmwiLAogICAgICAgICAgICAibmFtZSI6ICJOZWRl
+        cmxhbmRzIiwKICAgICAgICAgICAgImVuZ2xpc2hfbmFtZSI6ICJEdXRjaCIK
+        ICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgImlzb182MzlfMSI6
+        ICJodSIsCiAgICAgICAgICAgICJuYW1lIjogIk1hZ3lhciIsCiAgICAgICAg
+        ICAgICJlbmdsaXNoX25hbWUiOiAiSHVuZ2FyaWFuIgogICAgICAgIH0sCiAg
+        ICAgICAgewogICAgICAgICAgICAiaXNvXzYzOV8xIjogInJ1IiwKICAgICAg
+        ICAgICAgIm5hbWUiOiAiUNGD0YHRgdC60LjQuSIsCiAgICAgICAgICAgICJl
+        bmdsaXNoX25hbWUiOiAiUnVzc2lhbiIKICAgICAgICB9LAogICAgICAgIHsK
+        ICAgICAgICAgICAgImlzb182MzlfMSI6ICJpdCIsCiAgICAgICAgICAgICJu
+        YW1lIjogIkl0YWxpYW5vIiwKICAgICAgICAgICAgImVuZ2xpc2hfbmFtZSI6
+        ICJJdGFsaWFuIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgICAi
+        aXNvXzYzOV8xIjogInRyIiwKICAgICAgICAgICAgIm5hbWUiOiAiVMO8cmvD
+        p2UiLAogICAgICAgICAgICAiZW5nbGlzaF9uYW1lIjogIlR1cmtpc2giCiAg
+        ICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgICJpc29fNjM5XzEiOiAi
+        emgiLAogICAgICAgICAgICAibmFtZSI6ICLkuK3lm70iLAogICAgICAgICAg
+        ICAiZW5nbGlzaF9uYW1lIjogIk1hbmRhcmluIgogICAgICAgIH0sCiAgICAg
+        ICAgewogICAgICAgICAgICAiaXNvXzYzOV8xIjogImRhIiwKICAgICAgICAg
+        ICAgIm5hbWUiOiAiRGFuc2siLAogICAgICAgICAgICAiZW5nbGlzaF9uYW1l
+        IjogIkRhbmlzaCIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAg
+        Imlzb182MzlfMSI6ICJzdiIsCiAgICAgICAgICAgICJuYW1lIjogInN2ZW5z
+        a2EiLAogICAgICAgICAgICAiZW5nbGlzaF9uYW1lIjogIlN3ZWRpc2giCiAg
+        ICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgICJpc29fNjM5XzEiOiAi
+        cGwiLAogICAgICAgICAgICAibmFtZSI6ICJQb2xza2kiLAogICAgICAgICAg
+        ICAiZW5nbGlzaF9uYW1lIjogIlBvbGlzaCIKICAgICAgICB9LAogICAgICAg
+        IHsKICAgICAgICAgICAgImlzb182MzlfMSI6ICJjcyIsCiAgICAgICAgICAg
+        ICJuYW1lIjogIsSMZXNrw70iLAogICAgICAgICAgICAiZW5nbGlzaF9uYW1l
+        IjogIkN6ZWNoIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgICAi
+        aXNvXzYzOV8xIjogImZpIiwKICAgICAgICAgICAgIm5hbWUiOiAic3VvbWki
+        LAogICAgICAgICAgICAiZW5nbGlzaF9uYW1lIjogIkZpbm5pc2giCiAgICAg
+        ICAgfSwKICAgICAgICB7CiAgICAgICAgICAgICJpc29fNjM5XzEiOiAiaGUi
+        LAogICAgICAgICAgICAibmFtZSI6ICLXota015HWsNeo1rTXmdeqIiwKICAg
+        ICAgICAgICAgImVuZ2xpc2hfbmFtZSI6ICJIZWJyZXciCiAgICAgICAgfQog
+        ICAgXQp9
+    http_version: 
+  recorded_at: Wed, 26 Aug 2015 03:23:38 GMT
+recorded_with: VCR 2.9.3

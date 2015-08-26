@@ -1,0 +1,111 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/movie/fight-club/releases?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '107'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"8cd68d030256f9d5659c6118e085feb6"'
+      X-Apiary-Transaction-Id:
+      - 55dd3127074c0c0700bca90f
+      Date:
+      - Wed, 26 Aug 2015 03:23:20 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "id": 550,
+          "countries": [
+            {
+              "certification": "R",
+              "iso_3166_1": "US",
+              "primary": true,
+              "release_date": "1999-10-14"
+            },
+            {
+              "certification": "18",
+              "iso_3166_1": "DE",
+              "primary": false,
+              "release_date": "1999-11-10"
+            },
+            {
+              "certification": "18",
+              "iso_3166_1": "GB",
+              "primary": false,
+              "release_date": "1999-11-12"
+            },
+            {
+              "certification": "16",
+              "iso_3166_1": "FR",
+              "primary": false,
+              "release_date": "1999-11-10"
+            },
+            {
+              "certification": "",
+              "iso_3166_1": "TR",
+              "primary": false,
+              "release_date": "1999-12-10"
+            },
+            {
+              "certification": "18 anos",
+              "iso_3166_1": "BR",
+              "primary": false,
+              "release_date": "1999-11-12"
+            },
+            {
+              "certification": "K-18",
+              "iso_3166_1": "FI",
+              "primary": false,
+              "release_date": "1999-11-12"
+            },
+            {
+              "certification": "c",
+              "iso_3166_1": "BG",
+              "primary": false,
+              "release_date": "2012-08-28"
+            },
+            {
+              "certification": "VM14",
+              "iso_3166_1": "IT",
+              "primary": false,
+              "release_date": "1999-10-29"
+            },
+            {
+              "certification": "R18+",
+              "iso_3166_1": "AU",
+              "primary": false,
+              "release_date": "1999-11-11"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Wed, 26 Aug 2015 03:23:29 GMT
+recorded_with: VCR 2.9.3
