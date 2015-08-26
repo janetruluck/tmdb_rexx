@@ -17,6 +17,7 @@ require 'movie_rexx/client/job'
 require 'movie_rexx/client/keyword'
 require 'movie_rexx/client/network'
 require 'movie_rexx/client/review'
+require 'movie_rexx/client/timezone'
 
 module MovieRexx
   class Client
@@ -38,6 +39,7 @@ module MovieRexx
     include MovieRexx::Client::Keyword
     include MovieRexx::Client::Network
     include MovieRexx::Client::Review
+    include MovieRexx::Client::Timezone
 
     def initialize(options = {})
       MovieRexx::Configuration.keys.each do |key|
