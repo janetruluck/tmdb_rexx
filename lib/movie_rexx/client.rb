@@ -15,6 +15,7 @@ require 'movie_rexx/client/find'
 require 'movie_rexx/client/genre'
 require 'movie_rexx/client/job'
 require 'movie_rexx/client/keyword'
+require 'movie_rexx/client/network'
 
 module MovieRexx
   class Client
@@ -34,6 +35,7 @@ module MovieRexx
     include MovieRexx::Client::Genre
     include MovieRexx::Client::Job
     include MovieRexx::Client::Keyword
+    include MovieRexx::Client::Network
 
     def initialize(options = {})
       MovieRexx::Configuration.keys.each do |key|
