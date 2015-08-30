@@ -25,15 +25,15 @@ http_interactions:
       X-Apiary-Ratelimit-Limit:
       - '120'
       X-Apiary-Ratelimit-Remaining:
-      - '103'
+      - '86'
       Content-Type:
       - application/json
       Etag:
       - '"cb5f7598ec93dd70035f93953954d611"'
       X-Apiary-Transaction-Id:
-      - 55e327ee72e7280700ce93ce
+      - 55dd314ebb25080700a515e0
       Date:
-      - Sun, 30 Aug 2015 15:57:34 GMT
+      - Wed, 26 Aug 2015 03:23:58 GMT
       Transfer-Encoding:
       - chunked
       Via:
@@ -424,5 +424,5 @@ http_interactions:
         ICAidG90YWxfcGFnZXMiOiAxMTMyNCwKICAidG90YWxfcmVzdWx0cyI6IDIy
         NjQ3OAp9
     http_version: 
-  recorded_at: Sun, 30 Aug 2015 15:57:34 GMT
+  recorded_at: Wed, 26 Aug 2015 03:24:08 GMT
 recorded_with: VCR 2.9.3
