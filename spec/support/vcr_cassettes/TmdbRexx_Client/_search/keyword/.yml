@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/search/keyword?api_key=12345KEY&query=fight-club
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '115'
+      Content-Type:
+      - application/json
+      X-Apiary-Transaction-Id:
+      - 55e33a8338de0c0700843ebd
+      Date:
+      - Sun, 30 Aug 2015 17:16:54 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "page": 1,
+            "results": [
+                {
+                    "id": 1721,
+                    "name": "fight"
+                },
+                {
+                    "id": 6211,
+                    "name": "fighter"
+                },
+                {
+                    "id": 9878,
+                    "name": "fighter jet"
+                },
+                {
+                    "id": 2533,
+                    "name": "fighter pilot"
+                },
+                {
+                    "id": 12985,
+                    "name": "fighter jet the man"
+                }
+            ],
+            "total_pages": 1,
+            "total_results": 5
+        }
+    http_version: 
+  recorded_at: Sun, 30 Aug 2015 17:16:54 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,81 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/search/collection?api_key=12345KEY&query=fight-club
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '117'
+      Content-Type:
+      - application/json
+      X-Apiary-Transaction-Id:
+      - 55e33a7d38de0c0700843eb3
+      Date:
+      - Sun, 30 Aug 2015 17:16:45 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "page": 1,
+            "results": [
+                {
+                    "id": 86311,
+                    "backdrop_path": "/zuW6fOiusv4X9nnW3paHGfXcSll.jpg",
+                    "name": "The Avengers Collection",
+                    "poster_path": "/fMSxlk2zPpcXBn4R3TK3uqYjOpa.jpg"
+                },
+                {
+                    "id": 138966,
+                    "backdrop_path": null,
+                    "name": "The Toxic Avenger Series",
+                    "poster_path": null
+                },
+                {
+                    "id": 32135,
+                    "backdrop_path": null,
+                    "name": "The Toxic Avenger Collection",
+                    "poster_path": null
+                },
+                {
+                    "id": 14706,
+                    "backdrop_path": "/zE4wyiYkgqu7qsNXlsjckWfimYo.jpg",
+                    "name": "Ultimate Avengers Collection",
+                    "poster_path": "/s77dIqIExEslhZevh5ek3NvMg80.jpg"
+                },
+                {
+                    "id": 142748,
+                    "backdrop_path": null,
+                    "name": "The Avengers Collection: Phase 1",
+                    "poster_path": null
+                }
+            ],
+            "total_pages": 1,
+            "total_results": 5
+        }
+    http_version: 
+  recorded_at: Sun, 30 Aug 2015 17:16:45 GMT
+recorded_with: VCR 2.9.3

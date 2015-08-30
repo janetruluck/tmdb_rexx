@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/search/company?api_key=12345KEY&query=fight-club
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '118'
+      Content-Type:
+      - application/json
+      X-Apiary-Transaction-Id:
+      - 55e33a7738de0c0700843e87
+      Date:
+      - Sun, 30 Aug 2015 17:16:40 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "page": 1,
+            "results": [
+                {
+                    "id": 34,
+                    "logo_path": "/56VlAu08MIE926dQNfBcUwTY8np.png",
+                    "name": "Sony Pictures"
+                },
+                {
+                    "id": 2251,
+                    "logo_path": null,
+                    "name": "Sony Pictures Animation"
+                },
+                {
+                    "id": 58,
+                    "logo_path": null,
+                    "name": "Sony Pictures Classics"
+                },
+                {
+                    "id": 5752,
+                    "logo_path": null,
+                    "name": "Sony Pictures Entertainment"
+                },
+                {
+                    "id": 7431,
+                    "logo_path": null,
+                    "name": "Sony Pictures Entertainment (SPE)"
+                },
+                {
+                    "id": 5388,
+                    "logo_path": null,
+                    "name": "Sony Pictures Home Entertainment"
+                },
+                {
+                    "id": 3045,
+                    "logo_path": null,
+                    "name": "Sony Pictures Releasing"
+                },
+                {
+                    "id": 8285,
+                    "logo_path": null,
+                    "name": "Sony Pictures Studio"
+                }
+            ],
+            "total_pages": 1,
+            "total_results": 8
+        }
+    http_version: 
+  recorded_at: Sun, 30 Aug 2015 17:16:40 GMT
+recorded_with: VCR 2.9.3
