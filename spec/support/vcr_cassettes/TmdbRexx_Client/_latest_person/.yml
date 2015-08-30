@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/person/latest?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '102'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"d0db9614fd3971f3928f9f044a7202e0"'
+      X-Apiary-Transaction-Id:
+      - 55e3268e09cd590700185ae6
+      Date:
+      - Sun, 30 Aug 2015 15:51:43 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "adult": false,
+            "also_known_as": [],
+            "biography": null,
+            "birthday": null,
+            "deathday": null,
+            "homepage": null,
+            "id": 1108200,
+            "name": "Ted Koland",
+            "place_of_birth": null,
+            "profile_path": null
+        }
+    http_version: 
+  recorded_at: Sun, 30 Aug 2015 15:51:42 GMT
+recorded_with: VCR 2.9.3

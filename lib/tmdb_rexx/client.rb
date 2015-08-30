@@ -18,6 +18,7 @@ require 'tmdb_rexx/client/keyword'
 require 'tmdb_rexx/client/network'
 require 'tmdb_rexx/client/review'
 require 'tmdb_rexx/client/timezone'
+require 'tmdb_rexx/client/person'
 
 module TmdbRexx
   class Client
@@ -40,6 +41,7 @@ module TmdbRexx
     include TmdbRexx::Client::Network
     include TmdbRexx::Client::Review
     include TmdbRexx::Client::Timezone
+    include TmdbRexx::Client::Person
 
     def initialize(options = {})
       TmdbRexx::Configuration.keys.each do |key|
