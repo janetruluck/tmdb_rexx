@@ -1,0 +1,273 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/tv/breaking-bad/similar?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '100'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"ed6d3600ec1cf6d4ab30c24f6f33625e"'
+      X-Apiary-Transaction-Id:
+      - 55e521c1c17ef70700b35341
+      Date:
+      - Tue, 01 Sep 2015 03:55:45 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "page": 1,
+          "results": [
+            {
+              "backdrop_path": null,
+              "id": 15985,
+              "original_name": "Tom Brown's Schooldays",
+              "first_air_date": "1971-11-14",
+              "poster_path": "/7IDcPPyw0DYSH7xS583ufVZBhnd.jpg",
+              "popularity": 0.3,
+              "name": "Tom Brown's Schooldays",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": "/2Fg9H4TBJlXoZzZ4ixnAg0YV9xS.jpg",
+              "id": 47141,
+              "original_name": "The Bridge",
+              "first_air_date": "2013-07-10",
+              "poster_path": "/zBHarUl03wPbJsPOMCiKqtgsjmQ.jpg",
+              "popularity": 0.39,
+              "name": "The Bridge",
+              "vote_average": 8.3,
+              "vote_count": 2
+            },
+            {
+              "backdrop_path": null,
+              "id": 16092,
+              "original_name": "Tom Brown's Schooldays",
+              "first_air_date": null,
+              "poster_path": null,
+              "popularity": 0.4,
+              "name": "Tom Brown's Schooldays",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": "/5uButYLL7IHp26NrWKjn3PzK4Ls.jpg",
+              "id": 1413,
+              "original_name": "American Horror Story",
+              "first_air_date": "2011-10-05",
+              "poster_path": "/aq7GRQMSWrVeSU9P1xrlEibjdP5.jpg",
+              "popularity": 1.85595210803436,
+              "name": "American Horror Story",
+              "vote_average": 8.2,
+              "vote_count": 11
+            },
+            {
+              "backdrop_path": null,
+              "id": 60671,
+              "original_name": "Sivi dom",
+              "first_air_date": "1986-01-01",
+              "poster_path": "/8kZ0dLA4tF6dpUpyg0buHvdDKTe.jpg",
+              "popularity": 0.4,
+              "name": "Grey Home",
+              "vote_average": 9.0,
+              "vote_count": 1
+            },
+            {
+              "backdrop_path": "/A8FJKwNKCZbrUdNSADzj9VMOTAN.jpg",
+              "id": 45238,
+              "original_name": "Stephen Hawking's Grand Design",
+              "first_air_date": "2012-06-02",
+              "poster_path": "/7tdNpS9JcDmk1ZUCVsUq8y72SkL.jpg",
+              "popularity": 0.26,
+              "name": "Stephen Hawking's Grand Design",
+              "vote_average": 10.0,
+              "vote_count": 1
+            },
+            {
+              "backdrop_path": null,
+              "id": 60593,
+              "original_name": "Ai Shimai",
+              "first_air_date": "2001-04-27",
+              "poster_path": "/e6Ncxj1yLNU6MbpKCfqg76eGZhQ.jpg",
+              "popularity": 0.4,
+              "name": "Ai Shimai",
+              "vote_average": 8.0,
+              "vote_count": 1
+            },
+            {
+              "backdrop_path": null,
+              "id": 14918,
+              "original_name": "Me Too!",
+              "first_air_date": null,
+              "poster_path": null,
+              "popularity": 0.4,
+              "name": "Me Too!",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": null,
+              "id": 14921,
+              "original_name": "General Motors Theatre",
+              "first_air_date": null,
+              "poster_path": null,
+              "popularity": 0.4,
+              "name": "General Motors Theatre",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": null,
+              "id": 14922,
+              "original_name": "Head Start",
+              "first_air_date": null,
+              "poster_path": null,
+              "popularity": 0.4,
+              "name": "Head Start",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": "/uASK0WiXxLzADDR5JldRTs01a3s.jpg",
+              "id": 14929,
+              "original_name": "Heartland",
+              "first_air_date": "2007-10-14",
+              "poster_path": "/7OT7XGz0bJJb7ZNaxBGcFygWi3s.jpg",
+              "popularity": 0.4,
+              "name": "Heartland",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": null,
+              "id": 14940,
+              "original_name": "Wind on Water",
+              "first_air_date": "1998-10-17",
+              "poster_path": null,
+              "popularity": 0.4,
+              "name": "Wind on Water",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": null,
+              "id": 14944,
+              "original_name": "Robert Montgomery Presents",
+              "first_air_date": "1950-01-30",
+              "poster_path": null,
+              "popularity": 0.762553466886709,
+              "name": "Robert Montgomery Presents",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": "/gqbg7pdHwtJguo7m9g9NQRiqURA.jpg",
+              "id": 14968,
+              "original_name": "Empire Falls",
+              "first_air_date": null,
+              "poster_path": "/4cozaIrgo9irgfX88Z2ghDBfvFL.jpg",
+              "popularity": 0.2,
+              "name": "Empire Falls",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": null,
+              "id": 14977,
+              "original_name": "Seaway",
+              "first_air_date": "1965-09-16",
+              "poster_path": null,
+              "popularity": 0.48,
+              "name": "Seaway",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": null,
+              "id": 14980,
+              "original_name": "The Richard Boone Show",
+              "first_air_date": "1963-09-24",
+              "poster_path": null,
+              "popularity": 0.278,
+              "name": "The Richard Boone Show",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": null,
+              "id": 14983,
+              "original_name": "413 Hope St.",
+              "first_air_date": "1997-09-11",
+              "poster_path": null,
+              "popularity": 0.2,
+              "name": "413 Hope St.",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": null,
+              "id": 14986,
+              "original_name": "Laurel Avenue",
+              "first_air_date": null,
+              "poster_path": null,
+              "popularity": 0.4,
+              "name": "Laurel Avenue",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": "/sms3KTHY1u3hqLTtcIGQmbcnNMh.jpg",
+              "id": 15003,
+              "original_name": "Tell Me You Love Me",
+              "first_air_date": "2007-09-09",
+              "poster_path": "/7VHVNdqWIvKTLupN4SXeH4xrXX2.jpg",
+              "popularity": 0.4577518425,
+              "name": "Tell Me You Love Me",
+              "vote_average": 0.0,
+              "vote_count": 0
+            },
+            {
+              "backdrop_path": null,
+              "id": 15008,
+              "original_name": "Something in the Air",
+              "first_air_date": "2000-01-17",
+              "poster_path": null,
+              "popularity": 0.500518,
+              "name": "Something in the Air",
+              "vote_average": 0.0,
+              "vote_count": 0
+            }
+          ],
+          "total_pages": 339,
+          "total_results": 6763
+        }
+    http_version: 
+  recorded_at: Tue, 01 Sep 2015 03:55:45 GMT
+recorded_with: VCR 2.9.3
