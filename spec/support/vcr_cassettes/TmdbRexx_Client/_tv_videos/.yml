@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/tv/breaking-bad/videos?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '97'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"ae542c5a1816a477563ccfa97b68634d"'
+      X-Apiary-Transaction-Id:
+      - 55e521c5788f9e0700774fee
+      Date:
+      - Tue, 01 Sep 2015 03:55:49 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "id": 1396,
+          "results": [
+            {
+              "id": "5335e212c3a368266100002e",
+              "iso_639_1": "en",
+              "key": "TDFAYRtrYuk",
+              "name": "Opening Credits (Full)",
+              "site": "YouTube",
+              "size": 720,
+              "type": "Opening Credits"
+            },
+            {
+              "id": "5335e299c3a368265000001d",
+              "iso_639_1": "en",
+              "key": "6OdIbPMU720",
+              "name": "Opening Credits (Short)",
+              "site": "YouTube",
+              "size": 480,
+              "type": "Opening Credits"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Tue, 01 Sep 2015 03:55:49 GMT
+recorded_with: VCR 2.9.3

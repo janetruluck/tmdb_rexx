@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/tv/breaking-bad/external_ids?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '109'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"a25c7f77e4d2fa0bca41a8a0e956d7b4"'
+      X-Apiary-Transaction-Id:
+      - 55e521b2c17ef70700b3532c
+      Date:
+      - Tue, 01 Sep 2015 03:55:30 GMT
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "imdb_id": "tt0903747",
+          "freebase_id": "/en/breaking_bad",
+          "freebase_mid": "/m/03d34x8",
+          "id": 1396,
+          "tvdb_id": 81189,
+          "tvrage_id": 18164
+        }
+    http_version: 
+  recorded_at: Tue, 01 Sep 2015 03:55:30 GMT
+recorded_with: VCR 2.9.3
