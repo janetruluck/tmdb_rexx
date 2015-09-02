@@ -273,7 +273,7 @@ describe TmdbRexx::Client do
   end
 
   describe ".latest_movie", :vcr do
-    let(:resource) { tmdb_rexx.latest_movie(id) }
+    let(:resource) { tmdb_rexx.latest_movie }
     it { expect(resource).to respond_to(:adult) }
     it { expect(resource).to respond_to(:backdrop_path) }
     it { expect(resource).to respond_to(:belongs_to_collection) }
@@ -298,26 +298,26 @@ describe TmdbRexx::Client do
     it { expect(resource).to respond_to(:vote_count) }
 
     context ".production_companies" do
-      let(:resource) { tmdb_rexx.latest_movie(id).production_companies.first }
+      let(:resource) { tmdb_rexx.latest_movie.production_companies.first }
       it { expect(resource).to respond_to(:id) }
       it { expect(resource).to respond_to(:name) }
     end
 
     context ".production_countries" do
-      let(:resource) { tmdb_rexx.latest_movie(id).production_countries.first }
+      let(:resource) { tmdb_rexx.latest_movie.production_countries.first }
       it { expect(resource).to respond_to(:iso_3166_1) }
       it { expect(resource).to respond_to(:name) }
     end
 
     context ".spoken_languages" do
-      let(:resource) { tmdb_rexx.latest_movie(id).spoken_languages.first }
+      let(:resource) { tmdb_rexx.latest_movie.spoken_languages.first }
       it { expect(resource).to respond_to(:iso_639_1) }
       it { expect(resource).to respond_to(:name) }
     end
   end
 
   describe ".now_playing", :vcr do
-    let(:resource) { tmdb_rexx.now_playing(id) }
+    let(:resource) { tmdb_rexx.now_playing }
     it { expect(resource).to respond_to(:dates) }
     it { expect(resource).to respond_to(:page) }
     it { expect(resource).to respond_to(:results) }
@@ -325,7 +325,7 @@ describe TmdbRexx::Client do
     it { expect(resource).to respond_to(:total_results) }
 
     context ".results" do
-      let(:resource) { tmdb_rexx.now_playing(id).results.first }
+      let(:resource) { tmdb_rexx.now_playing.results.first }
       it { expect(resource).to respond_to(:adult) }
       it { expect(resource).to respond_to(:backdrop_path) }
       it { expect(resource).to respond_to(:genre_ids) }
@@ -344,14 +344,14 @@ describe TmdbRexx::Client do
   end
 
   describe ".popular_movies", :vcr do
-    let(:resource) { tmdb_rexx.popular_movies(id) }
+    let(:resource) { tmdb_rexx.popular_movies }
     it { expect(resource).to respond_to(:page) }
     it { expect(resource).to respond_to(:results) }
     it { expect(resource).to respond_to(:total_pages) }
     it { expect(resource).to respond_to(:total_results) }
 
     context ".results" do
-      let(:resource) { tmdb_rexx.popular_movies(id).results.first }
+      let(:resource) { tmdb_rexx.popular_movies.results.first }
       it { expect(resource).to respond_to(:adult) }
       it { expect(resource).to respond_to(:backdrop_path) }
       it { expect(resource).to respond_to(:genre_ids) }
@@ -370,14 +370,14 @@ describe TmdbRexx::Client do
   end
 
   describe ".top_rated_movies", :vcr do
-    let(:resource) { tmdb_rexx.top_rated_movies(id) }
+    let(:resource) { tmdb_rexx.top_rated_movies }
     it { expect(resource).to respond_to(:page) }
     it { expect(resource).to respond_to(:results) }
     it { expect(resource).to respond_to(:total_pages) }
     it { expect(resource).to respond_to(:total_results) }
 
     context ".results" do
-      let(:resource) { tmdb_rexx.top_rated_movies(id).results.first }
+      let(:resource) { tmdb_rexx.top_rated_movies.results.first }
       it { expect(resource).to respond_to(:adult) }
       it { expect(resource).to respond_to(:backdrop_path) }
       it { expect(resource).to respond_to(:genre_ids) }
@@ -396,7 +396,7 @@ describe TmdbRexx::Client do
   end
 
   describe ".upcoming", :vcr do
-    let(:resource) { tmdb_rexx.upcoming(id) }
+    let(:resource) { tmdb_rexx.upcoming }
     it { expect(resource).to respond_to(:dates) }
     it { expect(resource).to respond_to(:page) }
     it { expect(resource).to respond_to(:results) }
@@ -404,7 +404,7 @@ describe TmdbRexx::Client do
     it { expect(resource).to respond_to(:total_results) }
 
     context ".results" do
-      let(:resource) { tmdb_rexx.upcoming(id).results.first }
+      let(:resource) { tmdb_rexx.upcoming.results.first }
       it { expect(resource).to respond_to(:adult) }
       it { expect(resource).to respond_to(:backdrop_path) }
       it { expect(resource).to respond_to(:genre_ids) }

@@ -207,7 +207,7 @@ module TmdbRexx
       #
       # @example Get the movie latest
       #   TmdbRexx::Client.latest_movie("movie-id")
-      def latest_movie(movie_id, options = {})
+      def latest_movie(options = {})
         get([RESOURCE, "latest"].join("/"), options)
       end
 
@@ -221,7 +221,7 @@ module TmdbRexx
       #
       # @example Get the movies now_playing
       #   TmdbRexx::Client.now_playing("movie-id")
-      def now_playing(movie_id, options = {})
+      def now_playing(options = {})
         get([RESOURCE, "now_playing"].join("/"), options)
       end
 
@@ -235,7 +235,7 @@ module TmdbRexx
       #
       # @example Get the movies popular_movies
       #   TmdbRexx::Client.popular_movies("movie-id")
-      def popular_movies(movie_id, options = {})
+      def popular_movies(options = {})
         get([RESOURCE, "popular"].join("/"), options)
       end
 
@@ -249,7 +249,7 @@ module TmdbRexx
       #
       # @example Get the movies top rated
       #   TmdbRexx::Client.top_rated_movies("movie-id")
-      def top_rated_movies(movie_id, options = {})
+      def top_rated_movies(options = {})
         get([RESOURCE, "top_rated"].join("/"), options)
       end
 
@@ -263,7 +263,7 @@ module TmdbRexx
       #
       # @example Get the movies upcoming
       #   TmdbRexx::Client.upcoming("movie-id")
-      def upcoming(movie_id, options = {})
+      def upcoming(options = {})
         get([RESOURCE, "upcoming"].join("/"), options)
       end
     end
