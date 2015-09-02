@@ -2,8 +2,7 @@ module TmdbRexx
   module Configuration
     VALID_OPTION_KEYS = %i(api_key base_url version include_adult language).freeze
 
-    #attr_accessor(*VALID_OPTION_KEYS)
-    attr_accessor :api_key, :base_url, :version, :include_adult, :language
+    attr_accessor(*VALID_OPTION_KEYS)
 
     class << self
       def keys
@@ -18,7 +17,10 @@ module TmdbRexx
     # Reset configuration options to default values
     def reset!
       TmdbRexx::Configuration.keys.each do |key|
-        instance_variable_set(:"@#{key}", TmdbRexx::Default.options[key])
+        instance_variable_set(
+          :"@#{key}",
+          TmdbRexx::Default.const_get(key.upcase)
+        )
       end
       self
     end
