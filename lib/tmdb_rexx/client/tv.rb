@@ -121,7 +121,7 @@ module TmdbRexx
       # @example Get the tv backdrops
       #   TmdbRexx::Client.tv_backdrops("tv-id")
       def tv_backdrops(tv_id, options = {})
-        get([RESOURCE, tv_id, "images"].join("/"), options).backdrops
+        get([RESOURCE, tv_id, "images"].join("/"), options)["backdrops"]
       end
 
       # Get the posters for a specific tv id.
@@ -134,7 +134,7 @@ module TmdbRexx
       # @example Get the tv posters
       #   TmdbRexx::Client.tv_posters("tv-id")
       def tv_posters(tv_id, options = {})
-        get([RESOURCE, tv_id, "images"].join("/"), options).posters
+        get([RESOURCE, tv_id, "images"].join("/"), options)["posters"]
       end
 
       # Get the plot keywords for a specific tv id.

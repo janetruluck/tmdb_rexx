@@ -2,13 +2,7 @@ require "spec_helper"
 
 # Certification Spec
 describe TmdbRexx::Client do
-  before do
-    TmdbRexx.reset!
-    TmdbRexx.configure do |c|
-      c.base_url = "http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com"
-      c.api_key = "12345KEY"
-    end
-  end
+  initialize_client
 
   let(:tmdb_rexx) { TmdbRexx::Client.new }
 
@@ -17,16 +11,16 @@ describe TmdbRexx::Client do
       let(:resource) { tmdb_rexx.certifications }
 
       it "responds to a country code" do
-        expect(resource).to respond_to(:AU)
-        expect(resource).to respond_to(:US)
+        expect(resource).to have_key("AU")
+        expect(resource).to have_key("US")
       end
 
       context "within a country" do
         let(:resource) { tmdb_rexx.certifications.values.first.first }
 
-        it { expect(resource).to respond_to(:certification) }
-        it { expect(resource).to respond_to(:meaning) }
-        it { expect(resource).to respond_to(:order) }
+        it { expect(resource).to have_key("certification") }
+        it { expect(resource).to have_key("meaning") }
+        it { expect(resource).to have_key("order") }
       end
     end
 
@@ -34,16 +28,16 @@ describe TmdbRexx::Client do
       let(:resource) { tmdb_rexx.certifications("tv") }
 
       it "responds to a country code" do
-        expect(resource).to respond_to(:AU)
-        expect(resource).to respond_to(:US)
+        expect(resource).to have_key("AU")
+        expect(resource).to have_key("US")
       end
 
       context "within a country" do
         let(:resource) { tmdb_rexx.certifications("tv").values.first.first }
 
-        it { expect(resource).to respond_to(:certification) }
-        it { expect(resource).to respond_to(:meaning) }
-        it { expect(resource).to respond_to(:order) }
+        it { expect(resource).to have_key("certification") }
+        it { expect(resource).to have_key("meaning") }
+        it { expect(resource).to have_key("order") }
       end
     end
   end

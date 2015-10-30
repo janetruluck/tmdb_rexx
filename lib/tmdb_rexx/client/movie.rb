@@ -69,7 +69,7 @@ module TmdbRexx
       # @example Get the movie backdrops
       #   TmdbRexx::Client.movie_backdrops("movie-id")
       def movie_backdrops(movie_id, options = {})
-        get([RESOURCE, movie_id, "images"].join("/"), options).backdrops
+        get([RESOURCE, movie_id, "images"].join("/"), options)['backdrops']
       end
 
       # Get the posters for a specific movie id.
@@ -82,7 +82,7 @@ module TmdbRexx
       # @example Get the movie posters
       #   TmdbRexx::Client.movie_posters("movie-id")
       def movie_posters(movie_id, options = {})
-        get([RESOURCE, movie_id, "images"].join("/"), options).posters
+        get([RESOURCE, movie_id, "images"].join("/"), options)['posters']
       end
 
       # Get the plot keywords for a specific movie id.

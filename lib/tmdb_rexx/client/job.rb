@@ -12,7 +12,7 @@ module TmdbRexx
       # @example Get the jobs api response
       #   client.jobs
       def jobs(options = {})
-        get([RESOURCE, "list"].join("/"), options).jobs
+        get([RESOURCE, "list"].join("/"), options)['jobs']
       end
     end
   end

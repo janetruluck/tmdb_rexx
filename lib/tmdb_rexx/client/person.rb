@@ -119,7 +119,7 @@ module TmdbRexx
       # @example Get the person profile images
       #   TmdbRexx::Client.person_profiles("person-id")
       def person_profiles(person_id, options = {})
-        get([RESOURCE, person_id, "images"].join("/"), options).profiles
+        get([RESOURCE, person_id, "images"].join("/"), options)["profiles"]
       end
 
       # Get the changes made to the movie.

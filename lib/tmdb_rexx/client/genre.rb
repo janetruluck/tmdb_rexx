@@ -17,7 +17,7 @@ module TmdbRexx
       #   client.genres("movie")
       def genres(type = "movie", options = {})
         raise InvalidTypeError unless POSSIBLE_TYPES.include?(type)
-        get([RESOURCE, type, "list"].join("/"), options).genres
+        get([RESOURCE, type, "list"].join("/"), options)['genres']
       end
 
       # Get the list of movies for a particular genre by id. By default, only
