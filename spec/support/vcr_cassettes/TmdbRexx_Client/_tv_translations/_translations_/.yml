@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/tv/breaking-bad/translations?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '115'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"07deaef7646538ee3c4e46b9f8e5f26c"'
+      X-Apiary-Transaction-Id:
+      - 5633978eaa83fb0700c4c08b
+      Content-Length:
+      - '909'
+      Date:
+      - Fri, 30 Oct 2015 16:15:10 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICJpZCI6IDEzOTYsCiAgInRyYW5zbGF0aW9ucyI6IFsKICAgIHsKICAg
+        ICAgImlzb182MzlfMSI6ICJlbiIsCiAgICAgICJuYW1lIjogIkVuZ2xpc2gi
+        LAogICAgICAiZW5nbGlzaF9uYW1lIjogIkVuZ2xpc2giCiAgICB9LAogICAg
+        ewogICAgICAiaXNvXzYzOV8xIjogIm5sIiwKICAgICAgIm5hbWUiOiAiTmVk
+        ZXJsYW5kcyIsCiAgICAgICJlbmdsaXNoX25hbWUiOiAiRHV0Y2giCiAgICB9
+        LAogICAgewogICAgICAiaXNvXzYzOV8xIjogInRyIiwKICAgICAgIm5hbWUi
+        OiAiVMO8cmvDp2UiLAogICAgICAiZW5nbGlzaF9uYW1lIjogIlR1cmtpc2gi
+        CiAgICB9LAogICAgewogICAgICAiaXNvXzYzOV8xIjogInNrIiwKICAgICAg
+        Im5hbWUiOiAiU2xvdmVuxaHEjWluYSIsCiAgICAgICJlbmdsaXNoX25hbWUi
+        OiAiU2xvdmFrIgogICAgfSwKICAgIHsKICAgICAgImlzb182MzlfMSI6ICJk
+        ZSIsCiAgICAgICJuYW1lIjogIkRldXRzY2giLAogICAgICAiZW5nbGlzaF9u
+        YW1lIjogIkdlcm1hbiIKICAgIH0sCiAgICB7CiAgICAgICJpc29fNjM5XzEi
+        OiAicnUiLAogICAgICAibmFtZSI6ICJQ0YPRgdGB0LrQuNC5IiwKICAgICAg
+        ImVuZ2xpc2hfbmFtZSI6ICJSdXNzaWFuIgogICAgfSwKICAgIHsKICAgICAg
+        Imlzb182MzlfMSI6ICJmciIsCiAgICAgICJuYW1lIjogIkZyYW7Dp2FpcyIs
+        CiAgICAgICJlbmdsaXNoX25hbWUiOiAiRnJlbmNoIgogICAgfSwKICAgIHsK
+        ICAgICAgImlzb182MzlfMSI6ICJodSIsCiAgICAgICJuYW1lIjogIk1hZ3lh
+        ciIsCiAgICAgICJlbmdsaXNoX25hbWUiOiAiSHVuZ2FyaWFuIgogICAgfSwK
+        ICAgIHsKICAgICAgImlzb182MzlfMSI6ICJ6aCIsCiAgICAgICJuYW1lIjog
+        IuS4reWbvSIsCiAgICAgICJlbmdsaXNoX25hbWUiOiAiTWFuZGFyaW4iCiAg
+        ICB9CiAgXQp9
+    http_version: 
+  recorded_at: Fri, 30 Oct 2015 16:15:10 GMT
+recorded_with: VCR 2.9.3

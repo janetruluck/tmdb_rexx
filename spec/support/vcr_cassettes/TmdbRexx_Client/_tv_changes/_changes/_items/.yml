@@ -2,13 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/tv/breaking-bad/changes?api_key=12345KEY
+    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/tv/breaking-bad/changes?api_key=12345KEY
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.9.1
+      - Faraday v0.9.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -25,17 +25,17 @@ http_interactions:
       X-Apiary-Ratelimit-Limit:
       - '120'
       X-Apiary-Ratelimit-Remaining:
-      - '115'
+      - '119'
       Content-Type:
       - application/json
       Etag:
       - '"691e0c90d7869a78ead95cb777b870dd"'
       X-Apiary-Transaction-Id:
-      - 55e521abc17ef70700b35322
+      - 563394b8e800ed07008f1a56
+      Content-Length:
+      - '2912'
       Date:
-      - Tue, 01 Sep 2015 03:55:23 GMT
-      Transfer-Encoding:
-      - chunked
+      - Fri, 30 Oct 2015 16:03:04 GMT
       Via:
       - 1.1 vegur
     body:
@@ -107,5 +107,5 @@ http_interactions:
         ICAgICAgICAiYWRkX3RvX2V2ZXJ5X3NlYXNvbiI6IHRydWUKICAgICAgICAg
         IH0KICAgICAgICB9CiAgICAgIF0KICAgIH0KICBdCn0=
     http_version: 
-  recorded_at: Tue, 01 Sep 2015 03:55:23 GMT
+  recorded_at: Fri, 30 Oct 2015 16:03:04 GMT
 recorded_with: VCR 2.9.3

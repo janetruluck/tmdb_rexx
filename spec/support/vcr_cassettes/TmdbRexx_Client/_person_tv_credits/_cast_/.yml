@@ -1,0 +1,303 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/person/brad-pitt/tv_credits?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '99'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"ed59e17b5c7940de30c6f597ebbf0200"'
+      X-Apiary-Transaction-Id:
+      - 56339749aa83fb0700c4bfd6
+      Content-Length:
+      - '7340'
+      Date:
+      - Fri, 30 Oct 2015 16:14:01 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "cast": [
+            {
+              "character": "",
+              "credit_id": "525333fb19c295794002c720",
+              "episode_count": 2,
+              "first_air_date": "1985-09-24",
+              "id": 54,
+              "name": "Growing Pains",
+              "original_name": "Growing Pains",
+              "poster_path": "/eKyeUFwjc0LhPSp129IHpXniJVR.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "5257157c760ee3776a132ba8",
+              "episode_count": 2,
+              "first_air_date": "2000-04-12",
+              "id": 1795,
+              "name": "Jackass",
+              "original_name": "Jackass",
+              "poster_path": "/mz9PZo93dnIYHp1udcYsnBSLYTS.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "52571af119c29571140d5eda",
+              "episode_count": 1,
+              "first_air_date": "1983-04-04",
+              "id": 1900,
+              "name": "Live! with Kelly and Michael",
+              "original_name": "Live! with Kelly and Michael",
+              "poster_path": "/nuwhsprEgH31SROiJtIk0mxF82M.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "52572302760ee3776a22dc59",
+              "episode_count": 1,
+              "first_air_date": "1997-01-12",
+              "id": 2122,
+              "name": "King of the Hill",
+              "original_name": "King of the Hill",
+              "poster_path": "/r6dIrTjWLE3GfcTZzrDYikt6YDn.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "525763be760ee36aaa33f8e7",
+              "episode_count": 1,
+              "first_air_date": null,
+              "id": 4325,
+              "name": "Pet Star",
+              "original_name": "Pet Star",
+              "poster_path": null
+            },
+            {
+              "character": "",
+              "credit_id": "525764f9760ee36aaa357d18",
+              "episode_count": 1,
+              "first_air_date": "1988-10-08",
+              "id": 4346,
+              "name": "Freddy's Nightmares",
+              "original_name": "Freddy's Nightmares",
+              "poster_path": "/sMYfjEjK6rEF6FeiGum6g67Wor6.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "5257713f760ee36aaa496071",
+              "episode_count": 1,
+              "first_air_date": "1993-09-13",
+              "id": 4573,
+              "name": "Late Night with Conan O'Brien",
+              "original_name": "Late Night with Conan O'Brien",
+              "poster_path": "/v4N5l6JooObhXbjXoFaKbx92wB9.jpg"
+            },
+            {
+              "character": "Albigence Waldo",
+              "credit_id": "525782e7760ee36aaa605ae7",
+              "episode_count": 0,
+              "first_air_date": null,
+              "id": 5741,
+              "name": "Freedom: A History of Us",
+              "original_name": "Freedom: A History of Us",
+              "poster_path": null
+            },
+            {
+              "character": "James K. Polk",
+              "credit_id": "525782e7760ee36aaa605b0f",
+              "episode_count": 0,
+              "first_air_date": null,
+              "id": 5741,
+              "name": "Freedom: A History of Us",
+              "original_name": "Freedom: A History of Us",
+              "poster_path": null
+            },
+            {
+              "character": "William Lloyd Garrison",
+              "credit_id": "525782e7760ee36aaa605b19",
+              "episode_count": 0,
+              "first_air_date": null,
+              "id": 5741,
+              "name": "Freedom: A History of Us",
+              "original_name": "Freedom: A History of Us",
+              "poster_path": null
+            },
+            {
+              "character": "George Hewes",
+              "credit_id": "525782e7760ee36aaa605b23",
+              "episode_count": 0,
+              "first_air_date": null,
+              "id": 5741,
+              "name": "Freedom: A History of Us",
+              "original_name": "Freedom: A History of Us",
+              "poster_path": null
+            },
+            {
+              "character": "John Russell Young",
+              "credit_id": "525782e7760ee36aaa605b2d",
+              "episode_count": 0,
+              "first_air_date": null,
+              "id": 5741,
+              "name": "Freedom: A History of Us",
+              "original_name": "Freedom: A History of Us",
+              "poster_path": null
+            },
+            {
+              "character": "",
+              "credit_id": "5257fa0319c29531db2ed3bb",
+              "episode_count": 1,
+              "first_air_date": "1994-01-03",
+              "id": 9937,
+              "name": "Intimate Portrait",
+              "original_name": "Intimate Portrait",
+              "poster_path": null
+            },
+            {
+              "character": "",
+              "credit_id": "5258833a760ee346614043a6",
+              "episode_count": 3,
+              "first_air_date": "1929-05-16",
+              "id": 27023,
+              "name": "The Academy Awards",
+              "original_name": "The Academy Awards",
+              "poster_path": "/xxWK636MvogUp4Y5pX3ri69yMcy.jpg"
+            },
+            {
+              "character": "Walker Lovejoy",
+              "credit_id": "525895bf760ee3466158aa8e",
+              "episode_count": 6,
+              "first_air_date": "1990-07-25",
+              "id": 29999,
+              "name": "Glory Days",
+              "original_name": "Glory Days",
+              "poster_path": null
+            },
+            {
+              "character": "",
+              "credit_id": "525704eb760ee3776a008abe",
+              "episode_count": 1,
+              "first_air_date": "1987-09-29",
+              "id": 1448,
+              "name": "Thirtysomething",
+              "original_name": "Thirtysomething",
+              "poster_path": "/tlEWRrWe2SCd0cYfk3X5LEoiOpm.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "52570765760ee3776a03124d",
+              "episode_count": 1,
+              "first_air_date": "1987-04-12",
+              "id": 1486,
+              "name": "21 Jump Street",
+              "original_name": "21 Jump Street",
+              "poster_path": "/5zobhoPvdfqQOmvRRukhoJDiJ3M.jpg"
+            },
+            {
+              "character": "Will Colbert",
+              "credit_id": "5257107819c295731c02cf9b",
+              "episode_count": 1,
+              "first_air_date": "1994-09-22",
+              "id": 1668,
+              "name": "Friends",
+              "original_name": "Friends",
+              "poster_path": "/oQR7HXiCWpWvmUN1wo3asxrkAeZ.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "525713d5760ee3776a113c77",
+              "episode_count": 1,
+              "first_air_date": "1952-01-14",
+              "id": 1709,
+              "name": "Today",
+              "original_name": "Today",
+              "poster_path": "/o7bSMUPaIxYbbsgC6VTbrvOVDpN.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "52572b4e760ee3776a2d9c26",
+              "episode_count": 1,
+              "first_air_date": "1996-07-22",
+              "id": 2224,
+              "name": "The Daily Show",
+              "original_name": "The Daily Show",
+              "poster_path": "/dorWIToZ035gNAYORey8IzpFR1J.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "525734f6760ee3776a3977e7",
+              "episode_count": 1,
+              "first_air_date": "1989-06-10",
+              "id": 2391,
+              "name": "Tales from the Crypt",
+              "original_name": "Tales from the Crypt",
+              "poster_path": "/eN5mW5SVCtsu7AycQtZSTnOoLot.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "52573d96760ee36aaa047b7e",
+              "episode_count": 1,
+              "first_air_date": "1986-09-17",
+              "id": 2589,
+              "name": "Head of the Class",
+              "original_name": "Head of the Class",
+              "poster_path": "/Dyy3E7SqkeuYpiQET2rIwsGPxZ.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "525753c6760ee36aaa1f53c7",
+              "episode_count": 1,
+              "first_air_date": "2002-06-11",
+              "id": 3626,
+              "name": "American Idol",
+              "original_name": "American Idol",
+              "poster_path": "/2aqueDlNwOWrszV0hKsxVk5yOgK.jpg"
+            },
+            {
+              "character": "",
+              "credit_id": "5258094919c29531db3e2f4a",
+              "episode_count": 6,
+              "first_air_date": "2003-06-04",
+              "id": 10946,
+              "name": "Celebrities Uncensored",
+              "original_name": "Celebrities Uncensored",
+              "poster_path": null
+            }
+          ],
+          "crew": [
+            {
+              "credit_id": "531cc64d92514177b7005d3a",
+              "department": "Creator",
+              "first_air_date": "2014-03-09",
+              "id": 51370,
+              "job": "Creator",
+              "name": "Resurrection",
+              "original_name": "Resurrection",
+              "poster_path": "/oNiK8YaOGR995kLlNPhsM3mx506.jpg"
+            }
+          ],
+          "id": 287
+        }
+    http_version: 
+  recorded_at: Fri, 30 Oct 2015 16:14:01 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/tv/breaking-bad/alternative_titles?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '97'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"384570976cbf92e28714f8e5d6e46fa8"'
+      X-Apiary-Transaction-Id:
+      - 5633977ab692ab07008fa679
+      Content-Length:
+      - '182'
+      Date:
+      - Fri, 30 Oct 2015 16:14:50 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICJpZCI6IDEzOTYsCiAgInJlc3VsdHMiOiBbCiAgICB7CiAgICAgICJ0
+        aXRsZSI6ICJUb3TDoWwgc3rDrXbDoXMiLAogICAgICAiaXNvXzMxNjZfMSI6
+        ICJIVSIKICAgIH0sCiAgICB7CiAgICAgICJ0aXRsZSI6ICJCcsSZc3RhbnRp
+        cyBibG9naXMiLAogICAgICAiaXNvXzMxNjZfMSI6ICJMVCIKICAgIH0KICBd
+        Cn0=
+    http_version: 
+  recorded_at: Fri, 30 Oct 2015 16:14:50 GMT
+recorded_with: VCR 2.9.3

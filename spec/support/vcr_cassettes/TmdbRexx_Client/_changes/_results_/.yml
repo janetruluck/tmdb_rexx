@@ -1,0 +1,453 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/movie/changes?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '119'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"0ca01e6b15143aa6fd9afa99c13d15fb"'
+      X-Apiary-Transaction-Id:
+      - 563396ece800ed07008f1faa
+      Content-Length:
+      - '7427'
+      Date:
+      - Fri, 30 Oct 2015 16:12:28 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "results": [
+                {
+                    "id": 77946,
+                    "adult": false
+                },
+                {
+                    "id": 125527,
+                    "adult": false
+                },
+                {
+                    "id": 41023,
+                    "adult": false
+                },
+                {
+                    "id": 41471,
+                    "adult": false
+                },
+                {
+                    "id": 11058,
+                    "adult": false
+                },
+                {
+                    "id": 136838,
+                    "adult": false
+                },
+                {
+                    "id": 41024,
+                    "adult": false
+                },
+                {
+                    "id": 136842,
+                    "adult": false
+                },
+                {
+                    "id": 136844,
+                    "adult": false
+                },
+                {
+                    "id": 136845,
+                    "adult": false
+                },
+                {
+                    "id": 707,
+                    "adult": false
+                },
+                {
+                    "id": 13572,
+                    "adult": false
+                },
+                {
+                    "id": 96428,
+                    "adult": false
+                },
+                {
+                    "id": 13377,
+                    "adult": false
+                },
+                {
+                    "id": 117416,
+                    "adult": false
+                },
+                {
+                    "id": 12405,
+                    "adult": false
+                },
+                {
+                    "id": 77338,
+                    "adult": false
+                },
+                {
+                    "id": 4643,
+                    "adult": false
+                },
+                {
+                    "id": 136847,
+                    "adult": false
+                },
+                {
+                    "id": 10264,
+                    "adult": false
+                },
+                {
+                    "id": 84165,
+                    "adult": false
+                },
+                {
+                    "id": 136849,
+                    "adult": false
+                },
+                {
+                    "id": 52256,
+                    "adult": false
+                },
+                {
+                    "id": 77697,
+                    "adult": false
+                },
+                {
+                    "id": 31800,
+                    "adult": false
+                },
+                {
+                    "id": 24808,
+                    "adult": false
+                },
+                {
+                    "id": 34840,
+                    "adult": false
+                },
+                {
+                    "id": 87428,
+                    "adult": false
+                },
+                {
+                    "id": 22099,
+                    "adult": false
+                },
+                {
+                    "id": 119372,
+                    "adult": false
+                },
+                {
+                    "id": 20813,
+                    "adult": false
+                },
+                {
+                    "id": 94671,
+                    "adult": false
+                },
+                {
+                    "id": 22097,
+                    "adult": false
+                },
+                {
+                    "id": 136510,
+                    "adult": false
+                },
+                {
+                    "id": 10068,
+                    "adult": false
+                },
+                {
+                    "id": 136850,
+                    "adult": false
+                },
+                {
+                    "id": 136851,
+                    "adult": false
+                },
+                {
+                    "id": 136852,
+                    "adult": false
+                },
+                {
+                    "id": 13531,
+                    "adult": false
+                },
+                {
+                    "id": 17971,
+                    "adult": false
+                },
+                {
+                    "id": 136854,
+                    "adult": false
+                },
+                {
+                    "id": 136855,
+                    "adult": false
+                },
+                {
+                    "id": 2103,
+                    "adult": false
+                },
+                {
+                    "id": 72933,
+                    "adult": false
+                },
+                {
+                    "id": 10787,
+                    "adult": false
+                },
+                {
+                    "id": 128508,
+                    "adult": false
+                },
+                {
+                    "id": 119212,
+                    "adult": false
+                },
+                {
+                    "id": 46929,
+                    "adult": false
+                },
+                {
+                    "id": 17102,
+                    "adult": false
+                },
+                {
+                    "id": 136811,
+                    "adult": false
+                },
+                {
+                    "id": 136808,
+                    "adult": false
+                },
+                {
+                    "id": 62974,
+                    "adult": false
+                },
+                {
+                    "id": 92693,
+                    "adult": false
+                },
+                {
+                    "id": 136803,
+                    "adult": false
+                },
+                {
+                    "id": 74495,
+                    "adult": false
+                },
+                {
+                    "id": 136856,
+                    "adult": false
+                },
+                {
+                    "id": 136790,
+                    "adult": false
+                },
+                {
+                    "id": 136857,
+                    "adult": false
+                },
+                {
+                    "id": 136858,
+                    "adult": false
+                },
+                {
+                    "id": 136859,
+                    "adult": false
+                },
+                {
+                    "id": 113128,
+                    "adult": false
+                },
+                {
+                    "id": 114150,
+                    "adult": false
+                },
+                {
+                    "id": 76492,
+                    "adult": false
+                },
+                {
+                    "id": 136861,
+                    "adult": false
+                },
+                {
+                    "id": 136862,
+                    "adult": false
+                },
+                {
+                    "id": 136863,
+                    "adult": false
+                },
+                {
+                    "id": 136864,
+                    "adult": false
+                },
+                {
+                    "id": 9833,
+                    "adult": false
+                },
+                {
+                    "id": 667,
+                    "adult": false
+                },
+                {
+                    "id": 136867,
+                    "adult": false
+                },
+                {
+                    "id": 1450,
+                    "adult": false
+                },
+                {
+                    "id": 136732,
+                    "adult": false
+                },
+                {
+                    "id": 98205,
+                    "adult": false
+                },
+                {
+                    "id": 136735,
+                    "adult": false
+                },
+                {
+                    "id": 136190,
+                    "adult": false
+                },
+                {
+                    "id": 94720,
+                    "adult": false
+                },
+                {
+                    "id": 136741,
+                    "adult": false
+                },
+                {
+                    "id": 136742,
+                    "adult": false
+                },
+                {
+                    "id": 136743,
+                    "adult": false
+                },
+                {
+                    "id": 136751,
+                    "adult": false
+                },
+                {
+                    "id": 136752,
+                    "adult": false
+                },
+                {
+                    "id": 136753,
+                    "adult": false
+                },
+                {
+                    "id": 31393,
+                    "adult": false
+                },
+                {
+                    "id": 29262,
+                    "adult": false
+                },
+                {
+                    "id": 33067,
+                    "adult": false
+                },
+                {
+                    "id": 136868,
+                    "adult": false
+                },
+                {
+                    "id": 123025,
+                    "adult": false
+                },
+                {
+                    "id": 136870,
+                    "adult": false
+                },
+                {
+                    "id": 11370,
+                    "adult": false
+                },
+                {
+                    "id": 9267,
+                    "adult": false
+                },
+                {
+                    "id": 57387,
+                    "adult": false
+                },
+                {
+                    "id": 136876,
+                    "adult": false
+                },
+                {
+                    "id": 134739,
+                    "adult": false
+                },
+                {
+                    "id": 88534,
+                    "adult": false
+                },
+                {
+                    "id": 120591,
+                    "adult": false
+                },
+                {
+                    "id": 136877,
+                    "adult": false
+                },
+                {
+                    "id": 134708,
+                    "adult": false
+                },
+                {
+                    "id": 18426,
+                    "adult": false
+                },
+                {
+                    "id": 53146,
+                    "adult": false
+                },
+                {
+                    "id": 9587,
+                    "adult": false
+                }
+            ],
+            "page": 1,
+            "total_pages": 7,
+            "total_results": 664
+        }
+    http_version: 
+  recorded_at: Fri, 30 Oct 2015 16:12:28 GMT
+recorded_with: VCR 2.9.3

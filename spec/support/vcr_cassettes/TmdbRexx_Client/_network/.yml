@@ -2,13 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: http://private-anon-d61b2e7fc-themoviedb.apiary-mock.com/3/network/network-id?api_key=12345KEY
+    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/network/network-id?api_key=12345KEY
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.9.1
+      - Faraday v0.9.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -25,17 +25,17 @@ http_interactions:
       X-Apiary-Ratelimit-Limit:
       - '120'
       X-Apiary-Ratelimit-Remaining:
-      - '115'
+      - '114'
       Content-Type:
       - application/json
       Etag:
       - '"de3d5fb10d305637265caffd2c310568"'
       X-Apiary-Transaction-Id:
-      - 55dd315a074c0c0700bca962
+      - 56339422b692ab07008f9e57
+      Content-Length:
+      - '31'
       Date:
-      - Wed, 26 Aug 2015 03:24:10 GMT
-      Transfer-Encoding:
-      - chunked
+      - Fri, 30 Oct 2015 16:00:34 GMT
       Via:
       - 1.1 vegur
     body:
@@ -46,5 +46,5 @@ http_interactions:
           "name": "HBO"
         }
     http_version: 
-  recorded_at: Wed, 26 Aug 2015 03:24:19 GMT
+  recorded_at: Fri, 30 Oct 2015 16:00:34 GMT
 recorded_with: VCR 2.9.3
