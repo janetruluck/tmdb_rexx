@@ -17,7 +17,7 @@ module TmdbRexx
       # @example Get the movie certifications api response
       #   client.certifications("movies")
       def certifications(type = "movie", options = {})
-        get([RESOURCE, type, "list"].join("/"), options).certifications
+        get([RESOURCE, type, "list"].join("/"), options)['certifications']
       end
     end
   end

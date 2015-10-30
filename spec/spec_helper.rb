@@ -10,9 +10,24 @@ Dir[File.expand_path("spec/support/**/*.rb", __FILE__)].each {|f| require f}
 
 JsonSpec.directory = "spec/support/mocks"
 
+module Setup
+  def initialize_client
+    private_key = "81c8ca17c"
+
+    before do
+      TmdbRexx.reset!
+      TmdbRexx.configure do |c|
+        c.base_url = "http://private-anon-#{private_key}-themoviedb.apiary-mock.com"
+        c.api_key = "12345KEY"
+      end
+    end
+  end
+end
+
 RSpec.configure do |config|
   config.include JsonSpec::Helpers
   config.treat_symbols_as_metadata_keys_with_true_values = true
+  config.extend Setup
 end
 
 VCR.configure do |config|
