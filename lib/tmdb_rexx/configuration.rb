@@ -1,6 +1,6 @@
 module TmdbRexx
   module Configuration
-    VALID_OPTION_KEYS = %i(api_key base_url version include_adult language).freeze
+    VALID_OPTION_KEYS = [:api_key, :base_url, :version, :include_adult, :language].freeze
 
     attr_accessor(*VALID_OPTION_KEYS)
 

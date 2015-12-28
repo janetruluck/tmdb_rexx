@@ -10,7 +10,7 @@ Dir[File.expand_path("spec/support/**/*.rb", __FILE__)].each {|f| require f}
 
 JsonSpec.directory = "spec/support/mocks"
 
-module Setup
+module TmdbRexxSetup
   def initialize_client
     private_key = "81c8ca17c"
 
@@ -27,7 +27,7 @@ end
 RSpec.configure do |config|
   config.include JsonSpec::Helpers
   config.treat_symbols_as_metadata_keys_with_true_values = true
-  config.extend Setup
+  config.extend TmdbRexxSetup
 end
 
 VCR.configure do |config|
