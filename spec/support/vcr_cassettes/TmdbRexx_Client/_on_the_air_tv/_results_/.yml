@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/tv/on_the_air?api_key=12345KEY
+    uri: http://private-anon-a6b31bdcd-themoviedb.apiary-mock.com/3/tv/on_the_air?api_key=12345KEY
     body:
       encoding: US-ASCII
       string: ''
@@ -25,17 +25,17 @@ http_interactions:
       X-Apiary-Ratelimit-Limit:
       - '120'
       X-Apiary-Ratelimit-Remaining:
-      - '109'
+      - '111'
       Content-Type:
       - application/json
       Etag:
       - '"d8207977649efbe7d07766cc2a5d2adb"'
       X-Apiary-Transaction-Id:
-      - 563397a1aa83fb0700c4c0bf
+      - 5682ceddc5d47a0b004bff45
       Content-Length:
       - '17182'
       Date:
-      - Fri, 30 Oct 2015 16:15:30 GMT
+      - Tue, 29 Dec 2015 18:20:13 GMT
       Via:
       - 1.1 vegur
     body:
@@ -424,5 +424,5 @@ http_interactions:
         LjAsCiAgICAgICJ2b3RlX2NvdW50IjogMQogICAgfQogIF0sCiAgInRvdGFs
         X3BhZ2VzIjogMTAsCiAgInRvdGFsX3Jlc3VsdHMiOiAxODQKfQ==
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 16:15:30 GMT
+  recorded_at: Tue, 29 Dec 2015 18:20:14 GMT
 recorded_with: VCR 2.9.3

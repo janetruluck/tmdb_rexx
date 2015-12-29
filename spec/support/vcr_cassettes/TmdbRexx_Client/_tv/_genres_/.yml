@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/tv/breaking-bad?api_key=12345KEY
+    uri: http://private-anon-a6b31bdcd-themoviedb.apiary-mock.com/3/tv/breaking-bad?api_key=12345KEY
     body:
       encoding: US-ASCII
       string: ''
@@ -31,11 +31,11 @@ http_interactions:
       Etag:
       - '"acea50fb474c5d1f9b60cb14d7171ada"'
       X-Apiary-Transaction-Id:
-      - 56339773b692ab07008fa66a
+      - 5682ceb075596c0b00b88fbe
       Content-Length:
       - '2937'
       Date:
-      - Fri, 30 Oct 2015 16:14:43 GMT
+      - Tue, 29 Dec 2015 18:19:29 GMT
       Via:
       - 1.1 vegur
     body:
@@ -153,5 +153,5 @@ http_interactions:
           "vote_count": 152
         }
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 16:14:43 GMT
+  recorded_at: Tue, 29 Dec 2015 18:19:29 GMT
 recorded_with: VCR 2.9.3

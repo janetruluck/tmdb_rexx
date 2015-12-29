@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/company/company-id/movies?api_key=12345KEY
+    uri: http://private-anon-a6b31bdcd-themoviedb.apiary-mock.com/3/company/company-id/movies?api_key=12345KEY
     body:
       encoding: US-ASCII
       string: ''
@@ -25,17 +25,17 @@ http_interactions:
       X-Apiary-Ratelimit-Limit:
       - '120'
       X-Apiary-Ratelimit-Remaining:
-      - '115'
+      - '105'
       Content-Type:
       - application/json
       Etag:
       - '"0d4728bc0fc91d3418755c39f0a78511"'
       X-Apiary-Transaction-Id:
-      - 563396f375a8fe070096ff73
+      - 5682cdfe75596c0b00b88f57
       Content-Length:
       - '8202'
       Date:
-      - Fri, 30 Oct 2015 16:12:36 GMT
+      - Tue, 29 Dec 2015 18:16:30 GMT
       Via:
       - 1.1 vegur
     body:
@@ -250,5 +250,5 @@ http_interactions:
             "total_results": 20
         }
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 16:12:36 GMT
+  recorded_at: Tue, 29 Dec 2015 18:16:30 GMT
 recorded_with: VCR 2.9.3
