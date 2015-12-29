@@ -1,0 +1,137 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-a6b31bdcd-themoviedb.apiary-mock.com/3/tv/breaking-bad/season/1/account_states?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '112'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"81d02d846cfb9ed331681f6a9701aa5b"'
+      X-Apiary-Transaction-Id:
+      - 5682cea0dd24400b00500940
+      Content-Length:
+      - '1397'
+      Date:
+      - Tue, 29 Dec 2015 18:19:13 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "id": 3578,
+          "results": [
+            {
+              "id": 62147,
+              "episode_number": 1,
+              "rated": {
+                "value": 8.0
+              }
+            },
+            {
+              "id": 62148,
+              "episode_number": 2,
+              "rated": false
+            },
+            {
+              "id": 62149,
+              "episode_number": 3,
+              "rated": false
+            },
+            {
+              "id": 62150,
+              "episode_number": 4,
+              "rated": false
+            },
+            {
+              "id": 62151,
+              "episode_number": 5,
+              "rated": false
+            },
+            {
+              "id": 62152,
+              "episode_number": 6,
+              "rated": false
+            },
+            {
+              "id": 62153,
+              "episode_number": 7,
+              "rated": {
+                "value": 8.5
+              }
+            },
+            {
+              "id": 62154,
+              "episode_number": 8,
+              "rated": false
+            },
+            {
+              "id": 62155,
+              "episode_number": 9,
+              "rated": false
+            },
+            {
+              "id": 62156,
+              "episode_number": 10,
+              "rated": false
+            },
+            {
+              "id": 62159,
+              "episode_number": 11,
+              "rated": false
+            },
+            {
+              "id": 62158,
+              "episode_number": 12,
+              "rated": false
+            },
+            {
+              "id": 62157,
+              "episode_number": 13,
+              "rated": false
+            },
+            {
+              "id": 62162,
+              "episode_number": 14,
+              "rated": false
+            },
+            {
+              "id": 62160,
+              "episode_number": 15,
+              "rated": false
+            },
+            {
+              "id": 62161,
+              "episode_number": 16,
+              "rated": {
+                "value": 9.0
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 18:19:13 GMT
+recorded_with: VCR 2.9.3
