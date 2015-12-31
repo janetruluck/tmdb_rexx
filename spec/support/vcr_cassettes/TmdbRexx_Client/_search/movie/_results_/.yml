@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/search/movie?api_key=12345KEY&query=fight-club
+    uri: http://private-anon-a6b31bdcd-themoviedb.apiary-mock.com/3/search/movie?api_key=12345KEY&query=fight-club
     body:
       encoding: US-ASCII
       string: ''
@@ -25,15 +25,15 @@ http_interactions:
       X-Apiary-Ratelimit-Limit:
       - '120'
       X-Apiary-Ratelimit-Remaining:
-      - '107'
+      - '92'
       Content-Type:
       - application/json
       X-Apiary-Transaction-Id:
-      - 5633976775a8fe0700970087
+      - 5682ce7f75596c0b00b88fa7
       Content-Length:
       - '10013'
       Date:
-      - Fri, 30 Oct 2015 16:14:31 GMT
+      - Tue, 29 Dec 2015 18:18:39 GMT
       Via:
       - 1.1 vegur
     body:
@@ -263,5 +263,5 @@ http_interactions:
         b3RlX2NvdW50IjogMAogICAgfQogIF0sCiAgInRvdGFsX3BhZ2VzIjogMSwK
         ICAidG90YWxfcmVzdWx0cyI6IDEzCn0=
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 16:14:31 GMT
+  recorded_at: Tue, 29 Dec 2015 18:18:39 GMT
 recorded_with: VCR 2.9.3

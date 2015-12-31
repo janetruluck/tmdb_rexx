@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/person/brad-pitt/tv_credits?api_key=12345KEY
+    uri: http://private-anon-a6b31bdcd-themoviedb.apiary-mock.com/3/person/brad-pitt/tv_credits?api_key=12345KEY
     body:
       encoding: US-ASCII
       string: ''
@@ -25,17 +25,17 @@ http_interactions:
       X-Apiary-Ratelimit-Limit:
       - '120'
       X-Apiary-Ratelimit-Remaining:
-      - '99'
+      - '119'
       Content-Type:
       - application/json
       Etag:
       - '"ed59e17b5c7940de30c6f597ebbf0200"'
       X-Apiary-Transaction-Id:
-      - 56339749aa83fb0700c4bfd6
+      - 5682ce59b0861b0b00ad1e47
       Content-Length:
       - '7340'
       Date:
-      - Fri, 30 Oct 2015 16:14:01 GMT
+      - Tue, 29 Dec 2015 18:18:01 GMT
       Via:
       - 1.1 vegur
     body:
@@ -299,5 +299,5 @@ http_interactions:
           "id": 287
         }
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 16:14:01 GMT
+  recorded_at: Tue, 29 Dec 2015 18:18:01 GMT
 recorded_with: VCR 2.9.3

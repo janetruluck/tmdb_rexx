@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://private-anon-81c8ca17c-themoviedb.apiary-mock.com/3/find/some-id?api_key=12345KEY&external_source=imdb_id
+    uri: http://private-anon-a6b31bdcd-themoviedb.apiary-mock.com/3/find/some-id?api_key=12345KEY&external_source=imdb_id
     body:
       encoding: US-ASCII
       string: ''
@@ -25,17 +25,17 @@ http_interactions:
       X-Apiary-Ratelimit-Limit:
       - '120'
       X-Apiary-Ratelimit-Remaining:
-      - '110'
+      - '97'
       Content-Type:
       - application/json
       Etag:
       - '"ba34da62c6ed15baab692a5a8cba2822"'
       X-Apiary-Transaction-Id:
-      - 563393a5e755cd0700052879
+      - 5682ce09b0861b0b00ad1e1c
       Content-Length:
       - '1134'
       Date:
-      - Fri, 30 Oct 2015 15:58:29 GMT
+      - Tue, 29 Dec 2015 18:16:41 GMT
       Via:
       - 1.1 vegur
     body:
@@ -71,5 +71,5 @@ http_interactions:
           "tv_season_results": []
         }
     http_version: 
-  recorded_at: Fri, 30 Oct 2015 15:58:29 GMT
+  recorded_at: Tue, 29 Dec 2015 18:16:41 GMT
 recorded_with: VCR 2.9.3

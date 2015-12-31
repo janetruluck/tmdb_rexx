@@ -1,0 +1,105 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://private-anon-a6b31bdcd-themoviedb.apiary-mock.com/3/tv/breaking-bad/season/1/videos?api_key=12345KEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      X-Apiary-Ratelimit-Limit:
+      - '120'
+      X-Apiary-Ratelimit-Remaining:
+      - '104'
+      Content-Type:
+      - application/json
+      Etag:
+      - '"ae542c5a1816a477563ccfa97b68634d"'
+      X-Apiary-Transaction-Id:
+      - 5682ceac75596c0b00b88fbc
+      Content-Length:
+      - '1253'
+      Date:
+      - Tue, 29 Dec 2015 18:19:24 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "id": 3578,
+          "results": [
+            {
+              "id": "5336d65dc3a3680e7f0012f3",
+              "iso_639_1": "en",
+              "key": "ccuuThlb5Vg",
+              "name": "Trailer",
+              "site": "YouTube",
+              "size": 480,
+              "type": "Trailer"
+            },
+            {
+              "id": "5336d677c3a3680e8f0013d9",
+              "iso_639_1": "en",
+              "key": "bXN2skxH5qU",
+              "name": "Promo #1 - We Are Done",
+              "site": "YouTube",
+              "size": 480,
+              "type": "Teaser"
+            },
+            {
+              "id": "5336d6b6c3a3680e8f0013de",
+              "iso_639_1": "en",
+              "key": "oNPfvEseRdY",
+              "name": "Promo #2 - Scared",
+              "site": "YouTube",
+              "size": 480,
+              "type": "Teaser"
+            },
+            {
+              "id": "5336d703c3a3680e70001241",
+              "iso_639_1": "en",
+              "key": "Z-gURIpg5f4",
+              "name": "Teaser 1",
+              "site": "YouTube",
+              "size": 480,
+              "type": "Trailer"
+            },
+            {
+              "id": "5336d71fc3a3680e70001244",
+              "iso_639_1": "en",
+              "key": "I3An9mDuf7E",
+              "name": "Teaser 2",
+              "site": "YouTube",
+              "size": 480,
+              "type": "Teaser"
+            },
+            {
+              "id": "5336d73ac3a3680e87001313",
+              "iso_639_1": "en",
+              "key": "gAIL5SQ3QFs",
+              "name": "Teaser 3",
+              "site": "YouTube",
+              "size": 480,
+              "type": "Teaser"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 18:19:24 GMT
+recorded_with: VCR 2.9.3

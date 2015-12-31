@@ -12,7 +12,7 @@ JsonSpec.directory = "spec/support/mocks"
 
 module TmdbRexxSetup
   def initialize_client
-    private_key = "81c8ca17c"
+    private_key = "a6b31bdcd"
 
     before do
       TmdbRexx.reset!

@@ -21,6 +21,7 @@ require 'tmdb_rexx/client/timezone'
 require 'tmdb_rexx/client/person'
 require 'tmdb_rexx/client/search'
 require 'tmdb_rexx/client/tv'
+require 'tmdb_rexx/client/tv_seasons'
 
 module TmdbRexx
   class Client
@@ -46,6 +47,7 @@ module TmdbRexx
     include TmdbRexx::Client::Person
     include TmdbRexx::Client::Search
     include TmdbRexx::Client::Tv
+    include TmdbRexx::Client::TvSeasons
 
     def initialize(options = {})
       TmdbRexx::Configuration.keys.each do |key|
